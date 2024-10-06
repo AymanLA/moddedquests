@@ -1,0 +1,329 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chipped"
+	group: "68CBCC1396B69724"
+	id: "7BE3192E1D80D9CE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71D258E5217E00E3"]
+			hide: true
+			icon: "chipped:creeper_lodestone_carving"
+			id: "195C318558C9944B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2F387551CA51F17C"
+				title: "Check this to begin!"
+				type: "checkmark"
+			}]
+			title: "Chipped!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["195C318558C9944B"]
+			hide: true
+			id: "6316333E86D445FF"
+			tasks: [{
+				id: "56D4E69C4299AE94"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["195C318558C9944B"]
+			hide: true
+			id: "4C2C8DA6C590478A"
+			tasks: [{
+				id: "7F7A98E7F6E040CA"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["195C318558C9944B"]
+			hide: true
+			id: "23C415FEFAA57A32"
+			tasks: [{
+				id: "271E17F72FEEE3B4"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["195C318558C9944B"]
+			hide: true
+			id: "1BF3A78DD9C2C6A7"
+			tasks: [{
+				id: "0E6676D28FAEC95F"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["195C318558C9944B"]
+			hide: true
+			id: "4ACD79E3ACBDA95E"
+			tasks: [{
+				id: "0A353C664B334FCE"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["195C318558C9944B"]
+			hide: true
+			id: "7327DF9D2317B5EB"
+			tasks: [{
+				id: "591501F5F752955F"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["195C318558C9944B"]
+			hide: true
+			id: "6BA1D7C1FD10A3EA"
+			tasks: [{
+				id: "060621284DF2DC0A"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6316333E86D445FF"]
+			id: "18A9759ED1DF309A"
+			tasks: [
+				{
+					id: "1DB21562F678C12A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:jungle_planks)"
+						}
+					}
+					title: "Any #chipped:jungle_planks"
+					type: "item"
+				}
+				{
+					id: "77968C3459FA8E3F"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:oak_planks)"
+						}
+					}
+					title: "Any #chipped:oak_planks"
+					type: "item"
+				}
+			]
+			title: "craft some wood!"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4ACD79E3ACBDA95E"]
+			id: "5B34ED6C34526B1A"
+			tasks: [
+				{
+					id: "06521D6F97FB920E"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:white_wool)"
+						}
+					}
+					title: "Any #chipped:white_wool"
+					type: "item"
+				}
+				{
+					id: "75AEF087ED8E90DE"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:black_wool)"
+						}
+					}
+					title: "Any #chipped:black_wool"
+					type: "item"
+				}
+			]
+			title: "Craft some wool!"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23C415FEFAA57A32"]
+			id: "078876884A8E12B4"
+			tasks: [
+				{
+					id: "40AB5FDDF578E35E"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:ice)"
+						}
+					}
+					title: "Any #chipped:ice"
+					type: "item"
+				}
+				{
+					id: "618ABAF3CA4D4770"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:dirt)"
+						}
+					}
+					title: "Any #chipped:dirt"
+					type: "item"
+				}
+			]
+			title: "Natural Decoration"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7327DF9D2317B5EB"]
+			id: "6C64723E56773C1C"
+			tasks: [
+				{
+					id: "23B87B18911334F3"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:amethyst_block)"
+						}
+					}
+					title: "Any #chipped:amethyst_block"
+					type: "item"
+				}
+				{
+					id: "35A2774322A2DF1E"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:coal_block)"
+						}
+					}
+					title: "Any #chipped:coal_block"
+					type: "item"
+				}
+			]
+			title: "Valuable blocks?"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C2C8DA6C590478A"]
+			id: "673AC475B6AFC898"
+			tasks: [
+				{
+					id: "2C7C5A4C7EB8E980"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:cobblestone)"
+						}
+					}
+					title: "Any #chipped:cobblestone"
+					type: "item"
+				}
+				{
+					id: "0DF5F954F91769D5"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:andesite)"
+						}
+					}
+					title: "Any #chipped:andesite"
+					type: "item"
+				}
+			]
+			title: "Craft some stone!"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6BA1D7C1FD10A3EA"]
+			id: "3A06BAD308E8BB8C"
+			tasks: [
+				{
+					id: "10582474FDD45BD9"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:iron_bars)"
+						}
+					}
+					title: "Any #chipped:iron_bars"
+					type: "item"
+				}
+				{
+					id: "43D4744A12BED1A6"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:redstone_lamp)"
+						}
+					}
+					title: "Any #chipped:redstone_lamp"
+					type: "item"
+				}
+			]
+			title: "Bars and lights"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BF3A78DD9C2C6A7"]
+			id: "73AB79EF5075B040"
+			tasks: [{
+				id: "1C561953AB1D6CA3"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:glass)"
+					}
+				}
+				title: "Any #chipped:glass"
+				type: "item"
+			}]
+			title: "Glassblowing"
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "Chipped"
+}

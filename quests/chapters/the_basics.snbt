@@ -1,0 +1,621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_basics"
+	group: ""
+	icon: "minecraft:crafting_table"
+	id: "2B626E0F6F0DDAE6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5EFF43384934A5F7"]
+			hide: true
+			hide_details_until_startable: true
+			id: "4F7FC3B3A42A14BC"
+			tasks: [{
+				count: 16L
+				id: "3C7D966E6B7B8EA4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				tags: ["logs"]
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Tier 0: Wood"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F7FC3B3A42A14BC"]
+			id: "7A378443E7320464"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "09710F823A922DA2"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "The Crafting table"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A378443E7320464"]
+			id: "3BD28E50934B2513"
+			shape: "gear"
+			tasks: [{
+				id: "1E8BD7DAE1003F49"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "Craft a bed"
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A378443E7320464"]
+			id: "71D258E5217E00E3"
+			shape: "gear"
+			subtitle: "Craft a Carpenter's Table!"
+			tasks: [{
+				id: "35B394BD0C44B5A9"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			title: "Chipped"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38AD6BDDE4ED53F4"]
+			id: "063DBD8A35825003"
+			tasks: [{
+				id: "753FFCB328FB79CF"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["063DBD8A35825003"]
+			id: "1484655FA9F11A2B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 10L
+				id: "046A518A4C8F3D8F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Tier 2: Iron"
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A378443E7320464"]
+			id: "38AD6BDDE4ED53F4"
+			tasks: [{
+				count: 16L
+				id: "6B8F321A1A742137"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:cobblestone)"
+					}
+				}
+				title: "Any #forge:cobblestone"
+				type: "item"
+			}]
+			title: "Tier 1: Stone"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A378443E7320464"]
+			id: "1E94B57FDCA4C23B"
+			shape: "gear"
+			tasks: [{
+				id: "74B8E9ABC0D5F352"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/hoes)"
+					}
+				}
+				title: "Any #forge:tools/hoes"
+				type: "item"
+			}]
+			title: "Craft a Hoe"
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A378443E7320464"]
+			description: ["&4hhh"]
+			id: "2C0CC96BA20FDFF8"
+			shape: "gear"
+			tasks: [{
+				id: "4A30DB564415976C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/pickaxes)"
+					}
+				}
+				title: "Any #forge:tools/pickaxes"
+				type: "item"
+			}]
+			title: "Craft a Pickaxe"
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A378443E7320464"]
+			id: "3BBE49938D6799AA"
+			tasks: [{
+				count: 32L
+				id: "54538137CC859650"
+				item: { Count: 32, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1484655FA9F11A2B"
+				"3BBE49938D6799AA"
+			]
+			id: "4960FEC49CD1806C"
+			tasks: [{
+				count: 16L
+				id: "1C283AFFBC5A2A59"
+				item: { Count: 16, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38AD6BDDE4ED53F4"]
+			id: "275BC30463957D11"
+			shape: "gear"
+			tasks: [{
+				id: "3949113E7F2FC77F"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1484655FA9F11A2B"]
+			id: "7ED4930746A33A21"
+			tasks: [{
+				count: 16L
+				id: "4829B35EA32D0278"
+				item: { Count: 16, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1484655FA9F11A2B"]
+			id: "360E2C3C2A7AD446"
+			tasks: [{
+				count: 16L
+				id: "20240EA90E25C8DF"
+				item: { Count: 16, id: "mekanism:raw_osmium" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1484655FA9F11A2B"]
+			id: "10893DDF2A964C94"
+			tasks: [{
+				count: 16L
+				id: "1D2F4D06AE957E51"
+				item: { Count: 16, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"10893DDF2A964C94"
+				"360E2C3C2A7AD446"
+				"7ED4930746A33A21"
+			]
+			icon: {
+				Count: 1
+				id: "mekanism:basic_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "4000000"
+						}]
+					}
+				}
+			}
+			id: "2469F41F13B03551"
+			shape: "gear"
+			tasks: [{
+				id: "7E88A6F14527A092"
+				type: "checkmark"
+			}]
+			title: "Mekanism?"
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4960FEC49CD1806C"]
+			icon: "create:cogwheel"
+			id: "2B2A36EAA1E90F9F"
+			tasks: [{
+				id: "2DA4FB7AB41A7AE4"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1484655FA9F11A2B"]
+			id: "02C945DAD5AAB8AA"
+			tasks: [{
+				id: "17D8AF9429583F19"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1484655FA9F11A2B"]
+			id: "2195F578A1710849"
+			tasks: [{
+				id: "169A0F533E35B622"
+				item: "domum_ornamentum:architectscutter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1484655FA9F11A2B"]
+			id: "5EEC71F4A040B76D"
+			tasks: [{
+				id: "7875A69C9B55B5F2"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7A378443E7320464"]
+			hide_dependency_lines: true
+			id: "0ADE2662968FEE00"
+			tasks: [{
+				count: 16L
+				id: "047FC738E68B3CE9"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"10893DDF2A964C94"
+				"5EEC71F4A040B76D"
+				"0ADE2662968FEE00"
+			]
+			id: "149BBD681FE57B75"
+			shape: "gear"
+			tasks: [{
+				count: 8L
+				id: "09B69E4CECC34968"
+				item: { Count: 8, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1484655FA9F11A2B"]
+			id: "3618A1613CFE1A26"
+			shape: "diamond"
+			tasks: [{
+				count: 3L
+				id: "4211CA2D6EE9C851"
+				item: { Count: 3, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "Tier 3: Diamond"
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3618A1613CFE1A26"]
+			icon: "minecraft:obsidian"
+			id: "6B2796085071BD48"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5D77733D48820A67"
+				type: "dimension"
+			}]
+			x: -9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7A378443E7320464"]
+			icon: {
+				Count: 1
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "061007898A264A4D"
+			shape: "gear"
+			tasks: [
+				{
+					id: "69010CCEED12881E"
+					type: "checkmark"
+				}
+				{
+					icon: "minecraft:feather"
+					id: "298B8824CE1E96E6"
+					stat: "minecraft:walk_one_cm"
+					type: "stat"
+					value: 50000
+				}
+			]
+			title: "The exploration is yours"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A378443E7320464"]
+			hide_dependency_lines: true
+			id: "1BC0C839091AB76C"
+			tasks: [{
+				count: 16L
+				id: "74AA54677ED282E7"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"0ADE2662968FEE00"
+				"1BC0C839091AB76C"
+			]
+			id: "10C6ED3081FA864F"
+			shape: "gear"
+			tasks: [{
+				count: 27L
+				id: "59F5D829D64E14CD"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1484655FA9F11A2B"]
+			dependency_requirement: "one_completed"
+			id: "45378CA6936C8FCB"
+			shape: "gear"
+			tasks: [{
+				id: "1B3FCCC3D891C1D7"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["061007898A264A4D"]
+			icon: "iceandfire:dragon_skull_lightning"
+			id: "7F3923991C9D61AB"
+			shape: "gear"
+			tasks: [{
+				id: "480E51D260E6538C"
+				type: "checkmark"
+			}]
+			title: "Dragon Trainer"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["061007898A264A4D"]
+			icon: "cataclysm:altar_of_fire"
+			id: "3DEBC6995A2FA0AF"
+			shape: "gear"
+			tasks: [{
+				id: "5066ACA3AA9D1259"
+				type: "checkmark"
+			}]
+			title: "Pain and suffering"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3618A1613CFE1A26"]
+			icon: "refinedstorage:grid"
+			id: "20BA98B11CB16354"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7734D2576997E02E"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1484655FA9F11A2B"]
+			id: "509465BB17763018"
+			shape: "gear"
+			tasks: [
+				{
+					count: 16L
+					id: "4FDF45780B60D123"
+					item: { Count: 16, id: "mysticalagriculture:inferium_essence" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "387195981A2728AA"
+					item: { Count: 16, id: "mysticalagriculture:prosperity_shard" }
+					type: "item"
+				}
+			]
+			title: "Farming the Easy stuff"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["061007898A264A4D"]
+			id: "33E1BFAC160D8654"
+			shape: "gear"
+			tasks: [{
+				id: "59DD7D9CAF2C304F"
+				structure: "alexscaves:underground_cabin"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["061007898A264A4D"]
+			id: "7F28E1DC91216F5A"
+			shape: "gear"
+			tasks: [{
+				advancement: "botania:main/flower_pickup"
+				criterion: ""
+				id: "04F06C5A5416F6C6"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["061007898A264A4D"]
+			id: "1F3C0D9B03595758"
+			shape: "gear"
+			tasks: [{
+				id: "6352733B01F74546"
+				item: "aquamirae:rune_of_the_storm"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B2796085071BD48"]
+			hide: true
+			id: "5A9F84F63BD21A61"
+			subtitle: "Collect at least 10 glowstone"
+			tasks: [{
+				count: 10L
+				id: "18637B8DC5ED61EC"
+				item: { Count: 10, id: "minecraft:glowstone" }
+				type: "item"
+			}]
+			title: "I remember seeing this on the minecraft forums"
+			x: -8.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5A9F84F63BD21A61"]
+			hide: true
+			id: "06A17503DD7D9CFB"
+			subtitle: "I wonder what this is for?"
+			tasks: [{
+				id: "4BEAF466C14B1284"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["06A17503DD7D9CFB"]
+			id: "37807B11BBE47EBA"
+			shape: "gear"
+			subtitle: "Visit the Aether"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "5068D253C15ED211"
+				title: "A Hostile Paradise"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3618A1613CFE1A26"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_4_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 3000L
+							Fluid: "ad_astra:fuel"
+						}]
+					}
+				}
+			}
+			id: "594E194F2719FE98"
+			shape: "gear"
+			subtitle: "Ad Astra"
+			tasks: [{
+				id: "2B734325325EC0CE"
+				title: "Check this to begin Ad Astra!"
+				type: "checkmark"
+			}]
+			title: "Beyond the sky"
+			x: -6.5d
+			y: -8.5d
+		}
+	]
+	title: "The Basics"
+}

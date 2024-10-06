@@ -1,0 +1,621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "6DA3C39A4417F765"
+	icon: "ae2:controller"
+	id: "0A9EDE75C0B371CB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"41595B3B4529F3E4"
+				"4804D8EC6CC08B02"
+			]
+			description: ["The ME Controller is the hub and centre of most ME networks. Each face can give thirty-two (32) channels, thereby expanding the capabilities of a given network."]
+			id: "67CAA6390B2C29FC"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Graduate in Networking"
+			tasks: [{
+				id: "0956B66B6D5A6237"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49BD6D03716D6384"]
+			id: "41595B3B4529F3E4"
+			tasks: [{
+				count: 8L
+				id: "24BD47E3DE220694"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E87C31C24442F89"]
+			description: ["You need inscribers to create processors which will be used by most blocks and items in AE2. From disks to terminals, you better automate the production and secure resources thereto."]
+			icon: "ae2:inscriber"
+			id: "60AAACE77F4B6F2D"
+			subtitle: "TSMC's Baby Photos"
+			tasks: [
+				{
+					count: 2L
+					id: "2855DBED02403D24"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "588BFD1875C7F51A"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "1020B80B6C47BC87"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "0318E04FFE278759"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "07A137C649F515B5"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "Humble Fabs"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49BD6D03716D6384"]
+			id: "3DFC7B63FA5E1EC5"
+			tasks: [{
+				count: 8L
+				id: "482C515DF10E0264"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49BD6D03716D6384"]
+			id: "67128D99D547FD42"
+			tasks: [{
+				count: 8L
+				id: "4787D31828CAE051"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["614D457B5FF247F8"]
+			description: ["Meteorites contain various &oalien &rresources and technologies essential to Applied Energistics."]
+			icon: "ae2:sky_stone_block"
+			id: "5E87C31C24442F89"
+			subtitle: "Twinkle, Twinkle, Indeed"
+			tasks: [
+				{
+					count: 32L
+					id: "12101D6EEAECFCCD"
+					item: { Count: 32, id: "ae2:sky_stone_block" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "479D55CDCC0CF27C"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "07541F6E028B9191"
+					structure: "ae2:meteorite"
+					title: "Visit a meteorite"
+					type: "structure"
+				}
+			]
+			title: "Meteor Acquired"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5A44DBBD1018F1C0"]
+			description: ["Meteorites can be found by chance around the Overworld. But if you really want to make the search faster, a meteorite compass points you to the correct direction."]
+			hide: true
+			id: "614D457B5FF247F8"
+			subtitle: "Hot Meteors in Your Area"
+			tasks: [{
+				id: "3C0EA3064FC089CB"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["60AAACE77F4B6F2D"]
+			description: ["These are intermediate products that are used in the assembly of the Calculation, Logic, and Engineering Processors. Combine the silicon and printed circuit with redstone at the centre slot and watch (and wait) for the Inscriber to do its magic."]
+			id: "49BD6D03716D6384"
+			subtitle: "Two Words That May Scare Raj"
+			tasks: [
+				{
+					count: 24L
+					id: "736327421397FE0E"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1CB6C1F7E2AFBF12"
+					item: { Count: 8, id: "ae2:printed_calculation_processor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0F6A1FDEC13F6A92"
+					item: { Count: 8, id: "ae2:printed_engineering_processor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7DE04DB75EE71D5C"
+					item: { Count: 8, id: "ae2:printed_logic_processor" }
+					type: "item"
+				}
+			]
+			title: "Printed Circuits"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: ["This marks the beginning of the chapter for Applied Energistics 2, a mod about a lot of items in drives using *technology* and also automating most of everything under the Sun."]
+			id: "5A44DBBD1018F1C0"
+			rewards: [{
+				id: "2208BAB326856CBA"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "Don Is Way Too Passionate About This Mod"
+			tasks: [{
+				id: "0CC30C0EA824EE8C"
+				title: "I Am Cool"
+				type: "checkmark"
+			}]
+			title: "Computer Engineering"
+			x: 0.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["0E0B421B3FD87FE5"]
+			description: ["Fluix crystal is an unnatural resource made by mixing charged certus quartz, and redstone in water. &oTry throwing some into the toilet, just try not to flush it."]
+			icon: "ae2:fluix_crystal"
+			id: "4804D8EC6CC08B02"
+			subtitle: "The Dark Side"
+			tasks: [
+				{
+					count: 8L
+					id: "45463BDA319E6AB8"
+					item: { Count: 8, id: "ae2:charged_certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "391C4D781732C8F7"
+					item: { Count: 8, id: "minecraft:quartz" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "437523726E3F02F8"
+					item: { Count: 16, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5BC58A5B97828ECE"
+					item: { Count: 16, id: "ae2:fluix_crystal" }
+					type: "item"
+				}
+			]
+			title: "Fluix Crystal"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A44DBBD1018F1C0"]
+			description: ["A charger... charges items placed in it, but it also creates charged certus quartz."]
+			id: "34770ECC010F8488"
+			subtitle: "Something Apple Doesn't Give You Anymore"
+			tasks: [
+				{
+					id: "26AAEFF1DEFF9CCD"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "5832647DC46886B1"
+					item: "ae2:crank"
+					type: "item"
+				}
+			]
+			title: "Charger"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5E87C31C24442F89"
+				"34770ECC010F8488"
+			]
+			id: "0E0B421B3FD87FE5"
+			subtitle: "Electrifying..."
+			tasks: [{
+				count: 16L
+				id: "6779D8FF089FDBB2"
+				item: { Count: 16, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			title: "Charged Certus Quartz"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67CAA6390B2C29FC"]
+			id: "3F1A2E47962F6FE6"
+			subtitle: "don wanted to skip like 3 steps here but roasty said nah"
+			tasks: [{
+				count: 16L
+				id: "052301936EDF1516"
+				item: { Count: 16, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			title: "Fluix Connection"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67CAA6390B2C29FC"]
+			id: "23E8B07EEC934EAB"
+			subtitle: "gotta get energy there somehow"
+			tasks: [{
+				id: "2DBFC44CF5728C81"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67CAA6390B2C29FC"]
+			id: "4471DD88B97896EA"
+			optional: true
+			subtitle: "If you dont want to use another tech mod's energy you can use this"
+			tasks: [{
+				id: "0F1E744CA28B1DBD"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F1A2E47962F6FE6"]
+			id: "0432F23E524D0F19"
+			tasks: [{
+				id: "63FF3B30EFC17BF9"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F1A2E47962F6FE6"]
+			id: "51B9D404687F9AF2"
+			tasks: [{
+				id: "531CA4576307C998"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0432F23E524D0F19"]
+			id: "320B0525FC7063AF"
+			tasks: [{
+				id: "2387E52622FB03DA"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"320B0525FC7063AF"
+				"462EE6862587EE71"
+			]
+			id: "5AE5D23E1C995082"
+			tasks: [{
+				id: "0B9E4E36557A17A5"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["51B9D404687F9AF2"]
+			id: "462EE6862587EE71"
+			tasks: [{
+				id: "207DFAA8FEA0E53D"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E87C31C24442F89"]
+			id: "7336735F9AE7324E"
+			tasks: [{
+				id: "32B68D00956EE3AC"
+				item: "ae2:quartz_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7336735F9AE7324E"]
+			id: "2AA467B292D50C4C"
+			rewards: [{
+				count: 4
+				id: "0C22D53D297ED94B"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			subtitle: "using certus qurtz blocks and water, obtain some flawed budding crystals"
+			tasks: [{
+				count: 4L
+				id: "5C76F5A7ED6AFA45"
+				item: { Count: 4, id: "ae2:flawed_budding_quartz" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5AE5D23E1C995082"]
+			id: "265C35FCE48D0F2B"
+			subtitle: "The certus must grow!"
+			tasks: [{
+				id: "3C8781D76459EA4B"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3F1A2E47962F6FE6"]
+			id: "49FD47632755AD0C"
+			optional: true
+			subtitle: "these cables help visualize channel paths or allow you to use up to 32 channels"
+			tasks: [
+				{
+					id: "75E1E334E9E1A1A6"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+				{
+					id: "645E08C641E822DC"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+				{
+					id: "10187C8B9B849850"
+					item: "ae2:fluix_covered_dense_cable"
+					type: "item"
+				}
+			]
+			title: "Alternative cables"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["265C35FCE48D0F2B"]
+			id: "05CA46E431B89E44"
+			tasks: [
+				{
+					count: 8L
+					id: "4125783D19D84048"
+					item: { Count: 8, id: "ae2:speed_card" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5D2C12BA58D038D7"
+					item: { Count: 8, id: "ae2:energy_card" }
+					type: "item"
+				}
+			]
+			title: "Upgrades people, upgrades"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["05CA46E431B89E44"]
+			id: "7CC3C5DAB943E890"
+			subtitle: "where'd the cables go?"
+			tasks: [
+				{
+					id: "630D0DD58E819EB5"
+					item: "ae2:wireless_receiver"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "296261D50265B5FD"
+					item: { Count: 16, id: "ae2:wireless_booster" }
+					type: "item"
+				}
+			]
+			title: "Wireless ME"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7CC3C5DAB943E890"]
+			id: "1BF1C05A8DE81FA3"
+			subtitle: "oh yeah, its all coming together"
+			tasks: [{
+				id: "609330E0228B012E"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			title: "Wireless Crafting Terminal"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BF1C05A8DE81FA3"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5FE7F1B17179C80F"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "464FCEF487FAE1B3"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2DD9B6C0AC000A6A"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6A167CFCEC6F7498"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Theres a few extra things you can do, but youve learned the basics of AE2!"
+			tasks: [{
+				id: "0AF99E5FADFCF17A"
+				title: "Thank you!"
+				type: "checkmark"
+			}]
+			title: "We hope you enjoyed"
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5FE7F1B17179C80F"]
+			id: "0FA87788AE4B6C7F"
+			tasks: [{
+				id: "207550501E77D756"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0FA87788AE4B6C7F"]
+			id: "4F351B17957C6A3F"
+			tasks: [{
+				id: "6263D7E7323BE461"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4F351B17957C6A3F"]
+			id: "100C7342D9AFB463"
+			tasks: [{
+				id: "684FD707F8D1D200"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5FE7F1B17179C80F"]
+			id: "46B7AB00478F7696"
+			tasks: [{
+				id: "38D3C6032542DE85"
+				item: "ae2:not_so_mysterious_cube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5FE7F1B17179C80F"]
+			id: "50B75E2F459D93F7"
+			tasks: [{
+				id: "0FEBDE1FEE94312E"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["50B75E2F459D93F7"]
+			id: "27C2D93F55515946"
+			tasks: [{
+				id: "72D586B0F9CAF404"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["27C2D93F55515946"]
+			id: "611C550073EFF5E0"
+			tasks: [{
+				id: "507557DC9DB22C17"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+	]
+	subtitle: ["The cooler storage solution™"]
+	title: "Applied Energistics 2"
+}

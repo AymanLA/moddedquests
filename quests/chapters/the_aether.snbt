@@ -1,0 +1,1099 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "4B2DDD8600EC9108"
+	icon: "aether:aether_portal_frame"
+	id: "31F7F2DA86DF1B88"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37807B11BBE47EBA"]
+			icon: "aether:aether_portal_frame"
+			id: "63975F539D0389ED"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Simply checkmark this quest to begin the Aether"
+			tasks: [{
+				id: "0F19D1E42DB69794"
+				title: "A Hostile Paradise"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63975F539D0389ED"]
+			description: ["Discover a new kind of wood in this strange place..."]
+			hide: true
+			id: "6F4668FD3AA647B2"
+			shape: "diamond"
+			tasks: [{
+				count: 16L
+				id: "369914A8A89524F5"
+				item: "aether:skyroot_log"
+				type: "item"
+			}]
+			title: "Skyroot"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63975F539D0389ED"]
+			hide: true
+			id: "4818D1A18CEA4CAB"
+			shape: "diamond"
+			subtitle: "Collect a Moa egg!"
+			tasks: [{
+				id: "4F2F54C8A0BCC3D3"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aether:moa_eggs)"
+					}
+				}
+				title: "Any #aether:moa_eggs"
+				type: "item"
+			}]
+			title: "Aether Husbandry"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4818D1A18CEA4CAB"]
+			hide: true
+			id: "20034D0C8777FECF"
+			subtitle: "Raising the flock"
+			tasks: [{
+				id: "1441802C95B93EC2"
+				item: "aether:incubator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4818D1A18CEA4CAB"]
+			hide: true
+			id: "7075D34D1AAF50B1"
+			optional: true
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2E9A3CDEC30C1711"
+					item: "aether:blue_moa_egg"
+					type: "item"
+				}
+				{
+					id: "56F3EAAC91E0C3A9"
+					item: "aether:white_moa_egg"
+					type: "item"
+				}
+				{
+					id: "35C6016AF1D923A8"
+					item: "aether:black_moa_egg"
+					type: "item"
+				}
+			]
+			title: "Collect Every Moa Egg"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F4668FD3AA647B2"]
+			description: ["You will find out quickly in this place that your regular tools dont seem to be as effective as they should be..."]
+			id: "1E5A6A1794454767"
+			subtitle: "Create a skyroot tool"
+			tasks: [{
+				id: "04084C9F63923821"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aether_redux:is_skyroot_tool)"
+					}
+				}
+				title: "Any #aether_redux:is_skyroot_tool"
+				type: "item"
+			}]
+			title: "A new tool tree"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F4668FD3AA647B2"]
+			id: "30BBA5188C830F9A"
+			shape: "hexagon"
+			subtitle: "Collect your first Ambrosium Shard"
+			tasks: [{
+				id: "6717EBB09FDC8974"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			title: "An Enchanted Shard"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F4668FD3AA647B2"]
+			id: "23434057A5B7FCE9"
+			shape: "hexagon"
+			subtitle: "Collect a Zanite Gemstone"
+			tasks: [{
+				id: "46BEC7CC1B9362E9"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			title: "Purple Gemstones?"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E5A6A1794454767"]
+			id: "06E82C170CC5A969"
+			subtitle: "Craft an Ambrosium Torch"
+			tasks: [{
+				id: "15A852617711E677"
+				item: "aether:ambrosium_torch"
+				type: "item"
+			}]
+			title: "Finally, a torch that works."
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E5A6A1794454767"]
+			id: "745E10B0A3FDD13A"
+			tasks: [{
+				id: "6A6438823AE6DF8A"
+				item: "aether:altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["745E10B0A3FDD13A"]
+			id: "0FAF570547D54E23"
+			subtitle: "It's like a furnace, but not"
+			tasks: [{
+				id: "0790776F70AC7E07"
+				item: "aether:freezer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1E5A6A1794454767"]
+			description: ["Craft each of the Holystone Tools"]
+			id: "37B2B7372052C0A5"
+			shape: "hexagon"
+			subtitle: "Getting an upgrade."
+			tasks: [
+				{
+					id: "73167619E2B88304"
+					item: {
+						Count: 1
+						id: "aether:holystone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "178BF7FB0C0B0EF5"
+					item: {
+						Count: 1
+						id: "aether:holystone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DE1439D27598A3A"
+					item: {
+						Count: 1
+						id: "aether:holystone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AD4C9F1ABDC1D34"
+					item: {
+						Count: 1
+						id: "aether:holystone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63EDB462D8002633"
+					item: {
+						Count: 1
+						id: "aether:holystone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Holystone Tools"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["20034D0C8777FECF"]
+			id: "6B8060350DDB527A"
+			optional: true
+			shape: "hexagon"
+			subtitle: "Kill every classic Aether Mob"
+			tasks: [
+				{
+					entity: "aether:aerbunny"
+					id: "68FA1D2347C03ADE"
+					title: "Kill an Aerbunny"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:flying_cow"
+					id: "41632B55614B28B6"
+					title: "Kill a Flying Cow"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:sheepuff"
+					id: "41BC7B978CF90F0F"
+					title: "Kill a Sheepuff"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:aechor_plant"
+					id: "6B609D5314EB2B25"
+					title: "Kill an Aechor Plant"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:cockatrice"
+					id: "719D41A1BE8E9B68"
+					title: "Kill a Cockatrice"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:phyg"
+					id: "535FF51713778633"
+					title: "Kill a Phyg"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:aerwhale"
+					id: "5A99C3D4828366BA"
+					title: "Kill an Aerwhale"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:golden_swet"
+					id: "1B0B05F21CF64412"
+					title: "Kill a Gold Swet"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:blue_swet"
+					id: "722DBA086FA6DE43"
+					title: "Kill a Blue Swet"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:zephyr"
+					id: "5CAD124FD506A313"
+					title: "Kill a Zephyr"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Call of the Hunt"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63975F539D0389ED"]
+			hide: true
+			id: "7CB986108C706805"
+			subtitle: "It's time to free the Aether!"
+			tasks: [{
+				id: "04F28469BFF26D02"
+				structure: "aether:bronze_dungeon"
+				title: "Bronze Dungeon"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CB986108C706805"]
+			id: "71F089BB0E01AC03"
+			subtitle: "Surely this is a chest"
+			tasks: [{
+				entity: "aether:mimic"
+				id: "1A70D28E50E42052"
+				title: "Kill a Mimic"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CB986108C706805"]
+			id: "46C1B56DBA0A0CEF"
+			subtitle: "slidey boy :3"
+			tasks: [{
+				entity: "aether:slider"
+				icon: "aether:zanite_gemstone"
+				id: "1B1C81118AF11CF6"
+				title: "Kill the Slider"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46C1B56DBA0A0CEF"]
+			hide: true
+			hide_dependent_lines: true
+			id: "08666130323B4816"
+			shape: "hexagon"
+			subtitle: "Collect your reward!"
+			tasks: [{
+				id: "787BF38500FC675D"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7CB986108C706805"
+				"08666130323B4816"
+			]
+			hide: true
+			id: "6ED23C3636559223"
+			subtitle: "You're gonna want better weapons"
+			tasks: [{
+				icon: "aether:valkyrie_cape"
+				id: "26C85C8C43C43840"
+				structure: "aether:silver_dungeon"
+				title: "The Temple of the Valkyries"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37B2B7372052C0A5"]
+			description: ["If you cant see the next quest after this one, consider completing the Bronze Dungeon Quest ;3"]
+			hide: true
+			id: "11B82CF21D382AC8"
+			subtitle: "Discover the extra armor slots aether uses"
+			tasks: [
+				{
+					id: "025055436456D125"
+					item: "aether_redux:enchanted_ring"
+					type: "item"
+				}
+				{
+					id: "780C883EB00B7DB8"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aether:accessories_gloves)"
+						}
+					}
+					title: "Any #aether:accessories_gloves"
+					type: "item"
+				}
+				{
+					id: "337CE99A4F517540"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aether:accessories_capes)"
+						}
+					}
+					title: "Any #aether:accessories_capes"
+					type: "item"
+				}
+			]
+			title: "What are these extra Slots?"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"11B82CF21D382AC8"
+				"08666130323B4816"
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "aether:zanite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "28627D023F5B8950"
+			subtitle: "Complete a full Zanite Set!"
+			tasks: [
+				{
+					id: "38DDC7812A876E1E"
+					item: {
+						Count: 1
+						id: "aether:zanite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E37571EB1056E46"
+					item: {
+						Count: 1
+						id: "aether:zanite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E12911837D7956A"
+					item: {
+						Count: 1
+						id: "aether:zanite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74EF9379C247D450"
+					item: {
+						Count: 1
+						id: "aether:zanite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B141860BA811503"
+					item: {
+						Count: 1
+						id: "aether:zanite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "540DDB38EF9F2901"
+					item: {
+						Count: 1
+						id: "aether:zanite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A60FBCFA1D33A6A"
+					item: {
+						Count: 1
+						id: "aether:zanite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1171F4AF8CFE4753"
+					item: {
+						Count: 1
+						id: "aether:zanite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "246CD0542B3D6D3D"
+					item: {
+						Count: 1
+						id: "aether:zanite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BB81070881C319C"
+					item: {
+						Count: 1
+						id: "aether:zanite_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76A0D4453FC59000"
+					item: {
+						Count: 1
+						id: "aether:zanite_ring"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C219833DDBB580F"
+					item: {
+						Count: 1
+						id: "aether:zanite_pendant"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The man behind the slaughter"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["28627D023F5B8950"]
+			id: "30B6211B119E0843"
+			subtitle: "Enchant some Gravitite ore!"
+			tasks: [{
+				id: "6B468B4E1556FA93"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			title: "Gravi-what?"
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["30B6211B119E0843"]
+			hide: true
+			id: "2F86E464C43978C9"
+			subtitle: "The bubblegum armor"
+			tasks: [
+				{
+					id: "0960B1A188BF7C45"
+					item: {
+						Count: 1
+						id: "aether:gravitite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "199D96BE59238A0C"
+					item: {
+						Count: 1
+						id: "aether:gravitite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BE80531C5A0EA92"
+					item: {
+						Count: 1
+						id: "aether:gravitite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13D4708FEDA51BF4"
+					item: {
+						Count: 1
+						id: "aether:gravitite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6832FA18D7EE4C3F"
+					item: {
+						Count: 1
+						id: "aether:gravitite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55AC79D2246C8E74"
+					item: {
+						Count: 1
+						id: "aether:gravitite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3964D913EF548E14"
+					item: {
+						Count: 1
+						id: "aether:gravitite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "492FB839E317C5EA"
+					item: {
+						Count: 1
+						id: "aether:gravitite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "447F06B147162FF2"
+					item: {
+						Count: 1
+						id: "aether:gravitite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B1F33C6BAAB2150"
+					item: {
+						Count: 1
+						id: "aether:gravitite_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gravitite Set"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["63975F539D0389ED"]
+			hide: true
+			id: "2B324A75AD749162"
+			optional: true
+			shape: "diamond"
+			subtitle: "These items can do some neat things!"
+			tasks: [
+				{
+					id: "19699FEC4E1818BD"
+					item: "aether:golden_amber"
+					type: "item"
+				}
+				{
+					id: "54507009F9FDC732"
+					item: "aether:white_apple"
+					type: "item"
+				}
+				{
+					id: "6050B0237DF33D41"
+					item: "aether:blue_gummy_swet"
+					type: "item"
+				}
+				{
+					id: "0439EDD2821326CC"
+					item: "aether:golden_gummy_swet"
+					type: "item"
+				}
+				{
+					id: "5C240E09720DBBBF"
+					item: "aether_redux:vanilla_gummy_swet"
+					type: "item"
+				}
+			]
+			title: "Special Items"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6ED23C3636559223"]
+			hide: true
+			id: "59C920374B549371"
+			tasks: [{
+				entity: "aether:valkyrie"
+				id: "55377AC1DF964521"
+				title: "Kill a Valkyrie"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6ED23C3636559223"]
+			hide: true
+			id: "3EF53998CFFA904E"
+			subtitle: "Collect a Victory Medal"
+			tasks: [{
+				id: "45C1C226F349506C"
+				item: "aether:victory_medal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4FCBD30FF4DF5325"]
+			hide: true
+			hide_dependent_lines: true
+			id: "643CC04F96ED82FE"
+			shape: "hexagon"
+			subtitle: "Collect your reward!"
+			tasks: [{
+				id: "420DED7A913A9013"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6ED23C3636559223"
+				"643CC04F96ED82FE"
+			]
+			hide: true
+			id: "0BDC6C846E399FA2"
+			subtitle: "Fight the god of this world."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "aether:flaming_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "313231E6E93A445E"
+				structure: "aether:gold_dungeon"
+				title: "Hubris"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EF53998CFFA904E"]
+			hide: true
+			id: "4FCBD30FF4DF5325"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "4F96114891C77352"
+				title: "Kill the Queen"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BDC6C846E399FA2"]
+			hide: true
+			id: "53520D510D1936DA"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "79351F9EF195FD1D"
+				title: "Kill the Sun Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53520D510D1936DA"]
+			hide: true
+			id: "2A22B543C98A57FB"
+			shape: "hexagon"
+			subtitle: "Collect your reward!"
+			tasks: [{
+				id: "6D77A6DDB6D7DCC1"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BDC6C846E399FA2"]
+			id: "338E5E312426DCEA"
+			subtitle: "Free The Aether!"
+			tasks: [{
+				id: "0ABACC3C46E85506"
+				item: "aether:sun_altar"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F86E464C43978C9"]
+			id: "49BFC016875DCB1F"
+			tasks: [
+				{
+					id: "014AE645CC08832E"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06CD207E67F9933D"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DDB53F9CC8B95CB"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FC9D89250CC9489"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45263DA93C8454FA"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FD433B1FE02E7FB"
+					item: "aether:valkyrie_cape"
+					type: "item"
+				}
+			]
+			title: "Valkyrie Set"
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["49BFC016875DCB1F"]
+			id: "247A3412EA376FC8"
+			tasks: [
+				{
+					id: "23D2822395208D6E"
+					item: {
+						Count: 1
+						id: "aether:phoenix_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41DC23B51C0AC6F7"
+					item: {
+						Count: 1
+						id: "aether:phoenix_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24A0C3472AD88EA9"
+					item: {
+						Count: 1
+						id: "aether:phoenix_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B3DD7CF849ABE80"
+					item: {
+						Count: 1
+						id: "aether:phoenix_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76334083162D45E2"
+					item: {
+						Count: 1
+						id: "aether:phoenix_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Phoenix Set"
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["247A3412EA376FC8"]
+			id: "1087E0B7CD265134"
+			tasks: [
+				{
+					id: "56FB8046C9DB4759"
+					item: {
+						Count: 1
+						id: "aether:obsidian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B28B259C6721D76"
+					item: {
+						Count: 1
+						id: "aether:obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "411E4CCF1F11BC29"
+					item: {
+						Count: 1
+						id: "aether:obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29AC50F2A0D2D955"
+					item: {
+						Count: 1
+						id: "aether:obsidian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00F6E129B779A1AC"
+					item: {
+						Count: 1
+						id: "aether:obsidian_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obsidian Set"
+			x: 0.0d
+			y: -13.5d
+		}
+	]
+	title: "The Aether"
+}

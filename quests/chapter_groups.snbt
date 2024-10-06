@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "4B3140FE09011490", title: "The Basics" }
+		{ id: "138E9D2D5FCC9B50", title: "Chapter: Farming and Cooking" }
+		{ id: "552C767580B2F5FC", title: "Chapter: Exploration" }
+		{ id: "41B1FCF781C12DE7", title: "Chapter: Craftsmith" }
+		{ id: "6DA3C39A4417F765", title: "Chapter: Tech" }
+		{ id: "4B2DDD8600EC9108", title: "Chapter: Dimensions" }
+		{ id: "4D0E852323214355", title: "Magic" }
+		{ id: "68CBCC1396B69724", title: "Cosmetic" }
+	]
+}
