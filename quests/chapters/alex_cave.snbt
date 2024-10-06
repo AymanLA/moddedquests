@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alex_cave"
+	group: "552C767580B2F5FC"
+	icon: "alexscaves:cave_book"
+	id: "7354B3D9BD47D8E0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46409A18CD180A1C"
+			tasks: [{
+				id: "580961BF7F9F1757"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46409A18CD180A1C"]
+			id: "274B499E106AB220"
+			tasks: [{
+				count: 4L
+				id: "755B768F2E34B6B4"
+				item: {
+					Count: 4
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46409A18CD180A1C"]
+			id: "7F4602DD5632CDE4"
+			tasks: [{
+				count: 4L
+				id: "0C57B00B5B7297A8"
+				item: {
+					Count: 4
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46409A18CD180A1C"]
+			id: "15BBB76577882209"
+			tasks: [{
+				count: 4L
+				id: "229DB5F8FBADCD9C"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46409A18CD180A1C"]
+			id: "65D857269831BA5D"
+			tasks: [{
+				count: 4L
+				id: "696061BEB8A6B8DD"
+				item: {
+					Count: 4
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46409A18CD180A1C"]
+			id: "1487B8B70D5A0F5C"
+			tasks: [{
+				count: 4L
+				id: "552AD7C8F59A010B"
+				item: {
+					Count: 4
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65D857269831BA5D"]
+			id: "21B0CB755B22F83D"
+			tasks: [{
+				id: "7DB89A074036D060"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["274B499E106AB220"]
+			dependency_requirement: "one_completed"
+			id: "5CAC2EE75491437A"
+			tasks: [{
+				id: "32EF1DE34C79BF8C"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F4602DD5632CDE4"]
+			id: "6C7507B41A4D1CE4"
+			tasks: [{
+				id: "5782848B68C634FF"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15BBB76577882209"]
+			id: "767AD17F0A43554F"
+			tasks: [{
+				id: "5BCAAB707FF79652"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1487B8B70D5A0F5C"]
+			id: "08AB2E6D81093002"
+			tasks: [{
+				id: "399948A4BA03A494"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C7507B41A4D1CE4"]
+			id: "66010B2FE364F61A"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: "alexscaves:ancient_sapling"
+				id: "74981D8F6650DEFA"
+				title: "Primordial cave"
+				type: "biome"
+			}]
+			title: "Find the Primordial cave"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21B0CB755B22F83D"]
+			id: "5C1444E18B221A1B"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: "alexscaves:uranium"
+				id: "4018C449CBC68CFD"
+				title: "Toxic cave"
+				type: "biome"
+			}]
+			title: "Visit the Toxic cave"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["767AD17F0A43554F"]
+			id: "350B789B5B2C1ECB"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: "alexscaves:submarine"
+				id: "1D6845B464ED5CD0"
+				title: "Abyssal chasm"
+				type: "biome"
+			}]
+			title: "Visit the Abyssal chasm"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CAC2EE75491437A"]
+			id: "1A306756798EAF1F"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: "alexscaves:telecore"
+				id: "75A0E53153EA163C"
+				title: "Magnetic cave"
+				type: "biome"
+			}]
+			title: "Visit the Magnetic cave"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08AB2E6D81093002"]
+			id: "609387CE0246E4F1"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: "alexscaves:pure_darkness"
+				id: "597C466ECA88E260"
+				title: "Forlon hollow"
+				type: "biome"
+			}]
+			title: "Visit Forlon hollow"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"609387CE0246E4F1"
+				"350B789B5B2C1ECB"
+				"5C1444E18B221A1B"
+				"1A306756798EAF1F"
+				"66010B2FE364F61A"
+			]
+			hide: true
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			id: "0A615044DD07B59A"
+			invisible: true
+			rewards: [{
+				id: "165030E827460C66"
+				type: "xp"
+				xp: 5000
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "37DFE8DD9579CD14"
+				type: "checkmark"
+			}]
+			title: "Completed "
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	title: "Alex Cave"
+}

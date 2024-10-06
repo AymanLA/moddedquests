@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cooking"
+	group: "138E9D2D5FCC9B50"
+	id: "4D61DE6578255879"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "150242DFE0F65579"
+			tasks: [{
+				id: "4430E8DBF9B4AC96"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["150242DFE0F65579"]
+			id: "4488F11B760F53C3"
+			tasks: [{
+				id: "2E143A683C1CA2C8"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["150242DFE0F65579"]
+			id: "2D3A0B1D66B37097"
+			tasks: [{
+				id: "63DB64AA27212E55"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["150242DFE0F65579"]
+			id: "78D2E182973B621E"
+			tasks: [{
+				id: "0240D4E8C0B357A3"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "194F5971FFA096A3"
+			tasks: [{
+				id: "65185573DC5EEDD9"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["194F5971FFA096A3"]
+			id: "235C2CB3F1CB6CD1"
+			tasks: [{
+				id: "3CA5D7B6FA08D5FC"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["235C2CB3F1CB6CD1"]
+			id: "2F92C9636880FB6A"
+			tasks: [{
+				id: "48C8C90282431377"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "0754E6D816DD1A34"
+			tasks: [{
+				id: "241745DA1E258E0A"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "06A06B665A4947BC"
+			tasks: [{
+				id: "750141308B4A79DB"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "70539BE208CCFDE4"
+			tasks: [{
+				id: "6C325D9BB8E44B3A"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "6A8BCA5FF29CA067"
+			tasks: [{
+				count: 2L
+				id: "5C3B85E21BE2E7AF"
+				item: { Count: 2, id: "cookingforblockheads:corner" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "2894A7F05E1EDF84"
+			tasks: [{
+				count: 4L
+				id: "038E7D43FDCF51E5"
+				item: { Count: 4, id: "cookingforblockheads:counter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "069C2068576E8B68"
+			tasks: [{
+				count: 4L
+				id: "2A940C3442DBB8B4"
+				item: { Count: 4, id: "cookingforblockheads:fruit_basket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06A06B665A4947BC"]
+			id: "365F637AE622DA34"
+			tasks: [{
+				id: "67245D7192F89EF8"
+				item: "cookingforblockheads:heating_unit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0754E6D816DD1A34"]
+			id: "1457F53B26A0443F"
+			tasks: [{
+				id: "7EAC97CFC6412FD4"
+				item: "cookingforblockheads:ice_unit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0754E6D816DD1A34"]
+			id: "7E614BC9845166A2"
+			tasks: [{
+				id: "181529AD4A4A2927"
+				item: "cookingforblockheads:preservation_chamber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "65F6C4EF3725854B"
+			shape: "rsquare"
+			tasks: [{
+				id: "4F837B5552F7F27E"
+				item: "croptopia:cooking_pot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "5984394262D1AF6C"
+			shape: "rsquare"
+			tasks: [{
+				id: "1F2956170438EABB"
+				item: "croptopia:food_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "65EF5DFCE4DBF041"
+			shape: "rsquare"
+			tasks: [{
+				id: "7FCEA2FDC072C65C"
+				item: "croptopia:frying_pan"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "6417707FB924E46A"
+			shape: "rsquare"
+			tasks: [{
+				id: "35D7C1062E20FEB6"
+				item: "croptopia:mortar_and_pestle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["78D2E182973B621E"]
+			id: "4312CBB94C4FDCE3"
+			tasks: [{
+				id: "18D3C6CDFABC6D75"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/knives)"
+					}
+				}
+				title: "Any #forge:tools/knives"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "4AC6F91F23FF6C28"
+			tasks: [{
+				id: "200A6E55C96CFB40"
+				item: "candlelight:cooking_pot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "33C6BDA09A6D0561"
+			tasks: [{
+				id: "68A7BA66DE209336"
+				item: "farm_and_charm:cooking_pot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "7EB83FA81A5305C3"
+			tasks: [{
+				id: "289A3F4A55AF1309"
+				item: {
+					Count: 1
+					id: "bakery:small_cooking_pot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+	]
+	title: "Cooking is simple"
+}

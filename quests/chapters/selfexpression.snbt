@@ -1,0 +1,96 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "selfexpression"
+	group: "68CBCC1396B69724"
+	id: "7F4E7ABFEB09FE4A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1F24FBDBEDC50389"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Craft some cloth!"
+			tasks: [{
+				id: "156A27B8AC7639BF"
+				item: "selfexpression:cloth"
+				type: "item"
+			}]
+			title: "Express yourself!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F24FBDBEDC50389"]
+			hide: true
+			id: "5F3392B82215C0AB"
+			tasks: [{
+				id: "1A4E6190A47425F0"
+				item: {
+					Count: 1
+					id: "selfexpression_slim:small_base_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F3392B82215C0AB"]
+			id: "47D87E5FC072E3DF"
+			tasks: [{
+				id: "3FB0C3ED5C708992"
+				item: {
+					Count: 1
+					id: "selfexpression_slim:small_base_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47D87E5FC072E3DF"]
+			id: "0A9F778D7ED13292"
+			tasks: [{
+				id: "7864B7859B3151DC"
+				item: {
+					Count: 1
+					id: "selfexpression_slim:small_base_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A9F778D7ED13292"]
+			id: "0F442F36894558CA"
+			subtitle: "Craft some new clothes!"
+			tasks: [{
+				id: "7A55678E034539DE"
+				item: {
+					Count: 1
+					id: "selfexpression_slim:small_base_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	title: "Selfexpression"
+}

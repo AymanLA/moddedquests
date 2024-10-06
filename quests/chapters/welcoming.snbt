@@ -1,0 +1,107 @@
+{
+	autofocus_id: "5EFF43384934A5F7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcoming"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "652DA08A462A94EA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3895803642AAB676"
+			rewards: [
+				{
+					count: 15
+					id: "55A36A18950F76FC"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "6D6FCC2400884060"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A08F08DACA68941"
+					item: "ftbquests:book"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "We hope you enjoy!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "57F8F4CD2F5C0201"
+				type: "dimension"
+			}]
+			title: "Welcome to the Modpack"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3895803642AAB676"]
+			icon: "minecraft:crafting_table"
+			id: "5EFF43384934A5F7"
+			subtitle: "Start here!"
+			tasks: [{
+				id: "5CA3A664D412EE5C"
+				type: "checkmark"
+			}]
+			title: "Begin The Basics"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3895803642AAB676"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "598BBA8DC2686340"
+			tasks: [{
+				id: "7FB12778AD79B8D3"
+				title: "Visit the Survival Overhaul"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3895803642AAB676"]
+			icon: "plushies:zombie_plushie"
+			id: "7F207B6B9992D057"
+			tasks: [{
+				id: "1CA235CC0A5F62B0"
+				title: "Visit the Challenges"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3895803642AAB676"]
+			icon: "create:schematic_and_quill"
+			id: "01778BD73433FFEE"
+			tasks: [{
+				id: "0029207E91F52E9D"
+				title: "Visit tooltip and info"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "Onboarding"
+}

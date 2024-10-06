@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ember"
+	group: "6DA3C39A4417F765"
+	icon: "embers:ember_shard"
+	id: "19CACACD2FE0D40A"
+	images: [
+		{
+			height: 1.0d
+			image: "embers:item/ancient_motive_core"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "embers:item/archaic_brick"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "embers:item/archaic_brick"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "embers:item/archaic_brick"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.5d
+			y: -9.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"705CE6BC1DDE7902"
+				"186F34E158D6EFE2"
+			]
+			dependency_requirement: "all_started"
+			id: "06D5EBB57D8F47F1"
+			tasks: [{
+				id: "465CB2D9C0ED7EA3"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1C75F3D281CC68E7"]
+			hide_dependency_lines: false
+			id: "116E59275B3A3FA5"
+			tasks: [{
+				count: 10L
+				id: "4969259B7F46DB62"
+				item: { Count: 10, id: "embers:ember_crystal" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C75F3D281CC68E7"]
+			id: "3C6F20E82058EAF3"
+			tasks: [{
+				count: 10L
+				id: "403324BE289347E9"
+				item: { Count: 10, id: "embers:ember_shard" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C75F3D281CC68E7"]
+			id: "081C4E2D39AA3D06"
+			tasks: [{
+				count: 10L
+				id: "47018BAC89BA2B95"
+				item: { Count: 10, id: "embers:ember_grit" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"116E59275B3A3FA5"
+				"3C6F20E82058EAF3"
+				"081C4E2D39AA3D06"
+			]
+			id: "1DFB53B83FE5428C"
+			tasks: [{
+				id: "77B515A2D28F0037"
+				item: "embers:ignem_reactor"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DBD5B651CB9E8A7"]
+			id: "186F34E158D6EFE2"
+			tasks: [{
+				count: 10L
+				id: "3FCF265A77D69BB3"
+				item: { Count: 10, id: "embers:caminite_brick" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E3B8A865FC0897F"]
+			hide_dependency_lines: true
+			id: "705CE6BC1DDE7902"
+			tasks: [{
+				id: "171C1F7EF621720F"
+				item: "embers:tinker_hammer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E3B8A865FC0897F"]
+			hide_dependency_lines: true
+			id: "3DBD5B651CB9E8A7"
+			tasks: [{
+				count: 26L
+				id: "78BF605FC90281FA"
+				item: { Count: 26, id: "embers:caminite_blend" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3DBD5B651CB9E8A7"]
+			id: "4EFD6A526640D3B1"
+			tasks: [{
+				count: 4L
+				id: "2E7DEC4C1EFBBB55"
+				item: { Count: 4, id: "embers:raw_caminite_plate" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4EFD6A526640D3B1"]
+			id: "5D97AB553A12D773"
+			tasks: [{
+				count: 16L
+				id: "2C59751FBD104021"
+				item: { Count: 16, id: "embers:item_pipe" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4EFD6A526640D3B1"]
+			id: "3AAE37F376158B5C"
+			tasks: [{
+				count: 16L
+				id: "2CF1BA173847CB2B"
+				item: { Count: 16, id: "embers:fluid_pipe" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5D97AB553A12D773"]
+			id: "5296C98A52CF8D13"
+			tasks: [{
+				count: 4L
+				id: "321F853D42C6D393"
+				item: { Count: 4, id: "embers:item_extractor" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3AAE37F376158B5C"]
+			id: "7113CCF46F7D8EA1"
+			tasks: [{
+				count: 4L
+				id: "5107B37CF1AD5B08"
+				item: { Count: 4, id: "embers:fluid_extractor" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EFD6A526640D3B1"]
+			id: "583183A4DE259713"
+			tasks: [{
+				count: 4L
+				id: "0CB15EE941AC56CC"
+				item: { Count: 4, id: "embers:caminite_lever" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06D5EBB57D8F47F1"]
+			id: "1C75F3D281CC68E7"
+			tasks: [{
+				id: "7797B353AEF15E22"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			id: "4E3B8A865FC0897F"
+			shape: "hexagon"
+			tasks: [{
+				id: "64F10F4F0FE8AC8B"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1DFB53B83FE5428C"]
+			id: "1A79D9B81353F9A5"
+			tasks: [{
+				id: "035648D5C9870BB8"
+				item: "embers:heat_exchanger"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			id: "0CA9C0378D9D6597"
+			shape: "square"
+			tasks: [{
+				id: "2A0178FE87A4FBE1"
+				item: "embers:atmospheric_gauge"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.0d
+		}
+		{
+			id: "36F0C2772B7F5080"
+			shape: "square"
+			tasks: [{
+				id: "3916AE24B08244B4"
+				item: "embers:ember_dial"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 2.0d
+		}
+		{
+			id: "3641CAD418268A0D"
+			shape: "square"
+			tasks: [{
+				id: "64AB2599C5AD1492"
+				item: "embers:item_dial"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 3.0d
+		}
+		{
+			id: "60A7D2D940022EEF"
+			shape: "square"
+			tasks: [{
+				id: "4DBD6F762B828072"
+				item: "embers:fluid_dial"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DFB53B83FE5428C"]
+			id: "46F4A4F4EEE0228E"
+			tasks: [{
+				count: 4L
+				id: "07E3074569B8160D"
+				item: { Count: 4, id: "embers:ember_emitter" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"69B396B9CA1E7734"
+				"46F4A4F4EEE0228E"
+			]
+			id: "2F577611CFF4A08E"
+			tasks: [{
+				count: 4L
+				id: "0F732B709FC8B655"
+				item: { Count: 4, id: "embers:ember_receiver" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46F4A4F4EEE0228E"]
+			id: "69B396B9CA1E7734"
+			tasks: [{
+				id: "570BA4618D37B5E3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+					id: "embers:copper_cell"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"69B396B9CA1E7734"
+				"46F4A4F4EEE0228E"
+				"2F577611CFF4A08E"
+			]
+			icon: "embers:ember_crystal"
+			id: "54480257AD994356"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1A9DCFC7FFB13C47"
+				type: "checkmark"
+			}]
+			title: "Unlock the next step"
+			x: -11.0d
+			y: 0.0d
+		}
+	]
+	title: "Ember:basics"
+}
