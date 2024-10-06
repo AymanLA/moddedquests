@@ -1,0 +1,688 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "4B2DDD8600EC9108"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_4_rocket"
+		tag: {
+			BotariumData: {
+				StoredFluids: [{
+					Amount: 3000L
+					Fluid: "ad_astra:fuel"
+				}]
+			}
+		}
+	}
+	id: "1BF2EC2E2BDD807B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["594E194F2719FE98"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_4_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 3000L
+							Fluid: "ad_astra:fuel"
+						}]
+					}
+				}
+			}
+			id: "5A5B4C3A722D5AD8"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "28219843730067B4"
+				title: "Check this to begin your trek to the stars!"
+				type: "checkmark"
+			}]
+			title: "Ad Astra!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A5B4C3A722D5AD8"]
+			id: "42FD56FACEB42DFB"
+			optional: true
+			subtitle: "Quests to do with fuel/energy are optional, as Ad Astra takes FE"
+			tasks: [{
+				icon: "ad_astra:oil_bucket"
+				id: "36CF78909A81E469"
+				optional_task: true
+				structure: "ad_astra:oil_well"
+				title: "Find an Oil Well"
+				type: "structure"
+			}]
+			title: "Spindletop"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A5B4C3A722D5AD8"]
+			hide_dependency_lines: false
+			id: "7F47E234A0FED469"
+			subtitle: "Craft a Nasa Workbench"
+			tasks: [{
+				id: "4B6CE72B9E65AB11"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "Future Technology"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F47E234A0FED469"]
+			hide_dependency_lines: false
+			id: "124E22120DBA12BB"
+			rewards: [{
+				count: 3
+				id: "6B8566C3CB8CA2DB"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "Using an oil of some kind, refine some rocket fuel"
+			tasks: [
+				{
+					id: "226612BEF134E283"
+					item: "ad_astra:fuel_refinery"
+					type: "item"
+				}
+				{
+					id: "2DAF023C045CFC82"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "Making dead dino juice fly"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F286F22BB51AAFA"]
+			id: "795B779E678586FC"
+			optional: true
+			subtitle: "You can also use create to do this"
+			tasks: [{
+				id: "61ABF478C44510BE"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42FD56FACEB42DFB"]
+			id: "0F286F22BB51AAFA"
+			optional: true
+			tasks: [{
+				id: "7C55EFA4733B616B"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F286F22BB51AAFA"]
+			id: "767777D4BA2264D7"
+			optional: true
+			tasks: [{
+				id: "3800BB077E4C9387"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["795B779E678586FC"]
+			id: "094BE250CB49FF9F"
+			tasks: [{
+				id: "0CE3C0A2179F68A4"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["795B779E678586FC"]
+			id: "27E63DA7E841273F"
+			optional: true
+			tasks: [{
+				id: "77C511ABCC38EB96"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27E63DA7E841273F"]
+			id: "6A98CD4F60EB0D10"
+			optional: true
+			subtitle: "Reminder, this is *a* way to make steel, Ad astra is compat with all steel"
+			tasks: [{
+				id: "1AC68A4EC2BF8F76"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F47E234A0FED469"]
+			id: "508383EA0438A94F"
+			shape: "hexagon"
+			subtitle: "use your nasa workbench to create the first tier of rocket!"
+			tasks: [{
+				id: "6C680AD9C6FA4C8D"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508383EA0438A94F"]
+			id: "6C8E96A442F2B7C7"
+			tasks: [
+				{
+					id: "34F1B1F6A49EF9D1"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36AFE1C1A542F5CA"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11563D38C2B89671"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7634F02CD3550DF5"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Space Suit"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["508383EA0438A94F"]
+			id: "6DAF34F0C193076D"
+			tasks: [{
+				id: "77226A8D21AD14E9"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["508383EA0438A94F"]
+			id: "2CC426A5478732F2"
+			tasks: [{
+				id: "0AD49C24AECAA6A7"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["508383EA0438A94F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "722271657DB6193C"
+			invisible: true
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "3FE446684BEA7EC2"
+				type: "dimension"
+			}]
+			title: "To the moon!"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DAF34F0C193076D"]
+			id: "5D3241F2A962C87A"
+			tasks: [{
+				id: "3BEA7A01589FAB80"
+				item: {
+					Count: 1
+					id: "ad_astra:gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["722271657DB6193C"]
+			icon: "ad_astra:moon_pillar"
+			id: "5611DB0F9F8DC401"
+			rewards: [{
+				id: "7BEFF3728D01E994"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7D504A3874D04511"
+					structure: "ad_astra:lunar_tower"
+					type: "structure"
+				}
+				{
+					id: "607BAFBE23979F4B"
+					structure: "ad_astra:lunarian_village"
+					type: "structure"
+				}
+			]
+			title: "Lunar Structures"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["722271657DB6193C"]
+			id: "26A44A985E2385A6"
+			tasks: [{
+				count: 16L
+				id: "4966C7A11C398601"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			title: "It's made out of what?"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26A44A985E2385A6"]
+			id: "6B0EBD5D2F47A192"
+			tasks: [{
+				count: 16L
+				id: "779F5D900C39B29D"
+				item: { Count: 16, id: "ad_astra:ice_shard" }
+				type: "item"
+			}]
+			title: "A new kind of fuel"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["508383EA0438A94F"]
+			id: "7090E63B19D048C2"
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				icon: "ad_astra:gravity_normalizer"
+				id: "182B83E870084519"
+				title: "My first Space Station"
+				type: "dimension"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["722271657DB6193C"]
+			icon: "ad_astra:moon_globe"
+			id: "495234167F0403BE"
+			tasks: [{
+				dimension: "ad_astra:moon_orbit"
+				id: "73ED1255F9F4FAF6"
+				title: "Moon orbit"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["584BADE59C55ED08"]
+			hide_dependency_lines: true
+			icon: "ad_astra:mars_globe"
+			id: "279175454A8560CD"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:glacio_orbit"
+				id: "305E9FCE103405B2"
+				title: "Occupy Mars"
+				type: "dimension"
+			}]
+			title: "Occupy Mars"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["722271657DB6193C"]
+			id: "584BADE59C55ED08"
+			tasks: [{
+				id: "41E31B3FB73E8BB9"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["279175454A8560CD"]
+			id: "4658160B308A267C"
+			rewards: [{
+				id: "27356B6DBBCBEBB6"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "ad_astra:mars_pillar"
+				id: "3BE78C4BF6655F9E"
+				structure: "ad_astra:mars_temple"
+				title: "Temple of Mars"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["279175454A8560CD"]
+			id: "2589C8D4E6B3E94D"
+			tasks: [{
+				dimension: "ad_astra:mars_orbit"
+				icon: "ad_astra:mars_globe"
+				id: "651C3972C41E78B2"
+				title: "Mars Orbit"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["279175454A8560CD"]
+			id: "0A99AB5C641DE3D6"
+			tasks: [{
+				id: "6A3BE9528DEBACB1"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["279175454A8560CD"]
+			id: "4961B44BC8999548"
+			subtitle: "you dont wanna melt do you?"
+			tasks: [
+				{
+					id: "50D4427C2762DBA8"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56DFB036AC3B5565"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FF3C7A26517B13E"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B571744ED19598E"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Thermal Failure Prevention"
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6B0EBD5D2F47A192"]
+			id: "6D359E9D28A76453"
+			tasks: [{
+				id: "1E69D85FDE0513D7"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A99AB5C641DE3D6"]
+			hide_dependency_lines: true
+			id: "0A8AA59578E77E3C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "215027D6D3BE5375"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			title: "Венера"
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0A99AB5C641DE3D6"]
+			hide_dependency_lines: true
+			id: "1711B6CCD85AE533"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "19091BB444F07FE6"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			title: "The Winged Messenger"
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"0A8AA59578E77E3C"
+				"1711B6CCD85AE533"
+			]
+			dependency_requirement: "one_completed"
+			id: "0CA09781BBF24931"
+			tasks: [{
+				id: "4CDB97B67E20098B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1711B6CCD85AE533"]
+			id: "5882DC302E03E0E6"
+			tasks: [{
+				dimension: "ad_astra:mercury_orbit"
+				icon: "ad_astra:mercury_globe"
+				id: "7C80E439326C1C88"
+				title: "Mercury Orbit"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0A8AA59578E77E3C"]
+			id: "557E0F9EB12FE8A6"
+			tasks: [{
+				dimension: "ad_astra:venus_orbit"
+				icon: "ad_astra:venus_globe"
+				id: "07941A7AFEF10B2A"
+				title: "Venus Orbit"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0A8AA59578E77E3C"]
+			icon: "ad_astra:venus_pillar"
+			id: "6EAA30624839EC4E"
+			rewards: [{
+				id: "2BE5C20ADD58D2F0"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D6ABAB06A939103"
+					structure: "ad_astra:pygro_village"
+					type: "structure"
+				}
+				{
+					id: "0E1D7E212F8EFB01"
+					structure: "ad_astra:pygro_tower"
+					type: "structure"
+				}
+			]
+			title: "Venus Structures"
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1711B6CCD85AE533"]
+			icon: "ad_astra:chiseled_mercury_stone_bricks"
+			id: "71E6A3232FEBB00C"
+			rewards: [{
+				id: "69A91CA67996428A"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			subtitle: "mercury has no structures so you get this one for free"
+			tasks: [{
+				id: "49AE67189515A4A3"
+				type: "checkmark"
+			}]
+			title: "A developer oversight"
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0CA09781BBF24931"]
+			hide_dependency_lines: true
+			id: "255B15D679ADDBF2"
+			rewards: [{
+				id: "24816E308133D4A5"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "19E09B531D196026"
+				title: "Interstellar"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["255B15D679ADDBF2"]
+			icon: "ad_astra:glacio_globe"
+			id: "3BE345EEF2FC4586"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "23CE7384E36B3FAF"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:glacio_orbit"
+				id: "12EC0949353F3D78"
+				optional_task: true
+				title: "The final frontier"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -18.0d
+		}
+	]
+	title: "Ad Astra"
+}

@@ -1,0 +1,866 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_exploration"
+	group: "552C767580B2F5FC"
+	id: "133E729D181CFB85"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66ABAB6581388899"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "52ECCCBE55B3BFA9"
+				title: "The exploler"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			id: "204237AC471CFE75"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				icon: "ae2:sky_stone_block"
+				id: "07B9C03C1E879916"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			icon: "vampirism:dark_spruce_sapling"
+			id: "4E4918D0666DCABE"
+			tasks: [{
+				biome: "vampirism:vampire_forest"
+				id: "46E7212F7E501999"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			icon: "werewolves:magic_sapling"
+			id: "2E8F6A43B2C75AE9"
+			tasks: [{
+				biome: "werewolves:werewolf_heaven"
+				id: "50DFC0B137318DB5"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "3A7696F8B5427556"
+			tasks: [{
+				id: "2AFA766C4E820D54"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "1EB3DC7DCBEEA01E"
+			tasks: [{
+				id: "03282802B79EA074"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EB3DC7DCBEEA01E"]
+			dependency_requirement: "all_started"
+			id: "2784E56927BFC83E"
+			tasks: [{
+				id: "49E44A0429A4D141"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "57491605E4DC3BAC"
+			tasks: [{
+				id: "049982BAD60089E3"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "7DFB9D0E9A9BF2EB"
+			tasks: [{
+				id: "5E41DC3547D20003"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "260A25C377672D70"
+			tasks: [{
+				id: "22E4C8A5593796A9"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "7447218ACE2B504C"
+			tasks: [{
+				id: "229A5F1C5F05C4F8"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "1637DE583545789E"
+			tasks: [{
+				id: "180A3B78E41C6613"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "2C494C531C6B79C0"
+			tasks: [{
+				id: "15A0F3B4150C0A64"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "1D4311C269B97070"
+			tasks: [{
+				id: "40381538395308D6"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "30D879E73F80002C"
+			tasks: [{
+				id: "6DD39BAA6FC8F2D5"
+				item: "artifacts:anglers_hat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "5DA5AF59ACD84F52"
+			tasks: [{
+				id: "1A3520ED0F6162C5"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "384F4EFA289EBF4C"
+			tasks: [{
+				id: "7093B9572DFB9336"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "7CE1BF680724D98C"
+			tasks: [{
+				id: "33EFBAEA2F036C6E"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "2D704B8404D56F62"
+			tasks: [{
+				id: "7B7408EC86162DD9"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "72EEE9D75299A5B7"
+			tasks: [{
+				id: "2339257EB285A44F"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "7F1AC94E8C4A0BF5"
+			tasks: [{
+				id: "52BA4C917DBC2248"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "5D53DC448530C6B1"
+			tasks: [{
+				id: "2967E7FDC0A72526"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "157A992B2502682F"
+			tasks: [{
+				id: "7540CEF48A4DE97A"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "31DA6C2A04D4A366"
+			tasks: [{
+				id: "0B2DE188B4A7DD2D"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "4BCDC5459FA11D60"
+			tasks: [{
+				id: "6145A55341FAEF50"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "3A082AD05AF14698"
+			tasks: [{
+				id: "75962250EDD5C419"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "42705A64F164BF8B"
+			tasks: [{
+				id: "32D229E43427853E"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "5A2142488F7EC80E"
+			tasks: [{
+				id: "1DA793FA94923897"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "440CFAC0AA4FABFD"
+			tasks: [{
+				id: "442BE5E8421C9168"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "1A0EE76D21ED1603"
+			tasks: [{
+				id: "3AFE0FE95099A798"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "1F0469B1ECF1A439"
+			tasks: [{
+				id: "7AC1E60603FA0931"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			id: "69AC95BB1C658350"
+			tasks: [{
+				id: "05A826C5C78C1AB1"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			id: "57B3F14F68B3C17B"
+			tasks: [{
+				id: "5E156AE6FF1F8ABE"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			id: "39511D7DC23DB782"
+			tasks: [{
+				id: "7B0BFB7D96F2ABBD"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "3DA17FC5E7478AB9"
+			tasks: [{
+				id: "00C2BA2939799CA3"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "6F96D7541359A5A1"
+			tasks: [{
+				id: "3766B8E906FFDCEA"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			id: "1E14DF0FDABA0A54"
+			tasks: [{
+				id: "21C8987342AA3B67"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			id: "75F1CD198938B264"
+			tasks: [{
+				id: "469BAEC529B0A314"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			id: "4FD9353B5FCB2974"
+			tasks: [{
+				id: "31F56BDD1DFFE2E9"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			id: "783825DDBED364BC"
+			tasks: [{
+				id: "1903A0B8C0DA6FC3"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			id: "3578DA854A3C32E3"
+			tasks: [{
+				id: "3D2461377A8EE72F"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			id: "6913FADFB7A5879B"
+			tasks: [{
+				id: "25433C01DF4022F3"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "36D11702FDADAA2C"
+			tasks: [{
+				id: "59A9FFD887F16FC7"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "127025F5CE98F764"
+			tasks: [{
+				id: "5DCF79AC05D1B527"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			id: "2AD8C177F6AEFAE9"
+			tasks: [{
+				id: "0BB6AD2A96077BBF"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "671F83897520A28D"
+			tasks: [{
+				id: "033960F2B022F2DF"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			id: "1486A00B0949FEBD"
+			tasks: [{
+				id: "68D0CC84E949526F"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			id: "5C25BF6E057743A6"
+			invisible: true
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk"
+				id: "0693D11611A42453"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C25BF6E057743A6"]
+			id: "62548972EA1AEAE2"
+			tasks: [{
+				icon: "minecraft:sculk_sensor"
+				id: "103EEF6E84A11EFC"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["62548972EA1AEAE2"]
+			id: "5DE5932C8B3BE7C3"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "6856537B4A54E092"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			icon: "minecraft:bee_nest"
+			id: "62F4AAA2CCAA38D8"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7BE95CCC83BB9604"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			hide: true
+			icon: "minecraft:stone"
+			id: "68847F436271C794"
+			invisible: true
+			tasks: [{
+				id: "0CCBFA689A7276A8"
+				structure: "blue_skies:gatekeeper_house_mountain"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			hide: true
+			icon: "minecraft:grass_block"
+			id: "49AB0CA5CA874F9F"
+			invisible: true
+			tasks: [{
+				id: "0FAAB118004126D7"
+				structure: "blue_skies:gatekeeper_house_plains"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			hide: true
+			icon: "minecraft:snow_block"
+			id: "07DB40942BD21C44"
+			invisible: true
+			tasks: [{
+				id: "796182895F4BD427"
+				structure: "blue_skies:gatekeeper_house_snowy"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"68847F436271C794"
+				"49AB0CA5CA874F9F"
+				"07DB40942BD21C44"
+			]
+			dependency_requirement: "one_completed"
+			id: "5DD0B9E1FF388DD7"
+			tasks: [{
+				id: "2757BE3CEFB0A498"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DD0B9E1FF388DD7"]
+			icon: "blue_skies:everbright_portal"
+			id: "19C9FB736DF6432B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "050D19CE610C873F"
+				type: "checkmark"
+			}]
+			x: -9.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5DD0B9E1FF388DD7"]
+			icon: "blue_skies:everdawn_portal"
+			id: "599589F05A3BDB43"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2394F197B7C8E4ED"
+				type: "checkmark"
+			}]
+			x: -9.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			icon: "minecraft:cracked_stone_bricks"
+			id: "383E163950710011"
+			tasks: [{
+				icon: "mowziesmobs:wrought_helmet"
+				id: "7E9700D79AA6956E"
+				structure: "mowziesmobs:wrought_chamber"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F8E58B581E7475D"]
+			id: "6F0DE084E5C01CA5"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "0FC455051B44E0D4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F0DE084E5C01CA5"]
+			hide_text_until_complete: true
+			id: "7C4279B1198F4D54"
+			tasks: [{
+				advancement: "mowziesmobs:suns_blessing"
+				criterion: ""
+				id: "3EB27F7EEE6BFAF4"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F8E58B581E7475D"]
+			id: "1EE67BF4CAF705C3"
+			tasks: [{
+				id: "45ABBF013AB1427C"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F8E58B581E7475D"]
+			id: "7B838D0E4D9F6A09"
+			tasks: [{
+				id: "21F4D5DF64EBFB59"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_fear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F8E58B581E7475D"]
+			id: "39D1AB88C36E5253"
+			tasks: [{
+				id: "756AE2623134AC0B"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F8E58B581E7475D"]
+			id: "6234125BC7E548A2"
+			tasks: [{
+				id: "3410F65C1E2E6029"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_bliss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F8E58B581E7475D"]
+			id: "6A7B5C1D47408011"
+			tasks: [{
+				id: "301E6DB27559088A"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_faith"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			id: "6F8E58B581E7475D"
+			invisible: true
+			tasks: [{
+				icon: "mowziesmobs:painted_acacia"
+				id: "2ED97936EFB53DEF"
+				structure: "mowziesmobs:umvuthana_grove"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["383E163950710011"]
+			id: "1070205DA334CC92"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "10C00F877C163361"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1070205DA334CC92"]
+			id: "72AE82EA565EEBD8"
+			tasks: [{
+				id: "5942FBB80C27A842"
+				item: "mowziesmobs:wrought_axe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1070205DA334CC92"]
+			id: "09F9AD597B00F09F"
+			tasks: [{
+				id: "19984491F4E88721"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			id: "034FD172516750B7"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5A08FA5775D41D08"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			id: "7A89D196826188FE"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:naga_fang_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1A23F0826C42B310"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66ABAB6581388899"]
+			id: "5935E85137836B27"
+			tasks: [{
+				biome: "ars_nouveau:archwood_forest"
+				icon: "ars_nouveau:purple_archwood_sapling"
+				id: "30C4F24FCD2BCC73"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+	]
+	title: "Basic exploration"
+}

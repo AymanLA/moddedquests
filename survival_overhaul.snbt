@@ -1,0 +1,445 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survival_overhaul"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "302D59577D249783"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "sereneseasons:calendar"
+			id: "6F90783C0876AF88"
+			tasks: [{
+				id: "0005725653F41259"
+				type: "checkmark"
+			}]
+			title: "Seasons"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			icon: "doggytalents:training_treat"
+			id: "1B7CE3F0C7932FC8"
+			tasks: [{
+				id: "73E88F313190DD45"
+				type: "checkmark"
+			}]
+			title: "Doggy Talent"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			icon: "vampirism:vampire_fang"
+			id: "25D395DD81A92609"
+			tasks: [{
+				id: "7A652E9AF57FBE16"
+				type: "checkmark"
+			}]
+			title: "Hunters,Werewolf and Vampires"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "minecraft:ender_eye"
+			id: "3909C5CCB002D888"
+			tasks: [{
+				id: "055B4018D3B1B2AC"
+				type: "checkmark"
+			}]
+			title: "End Remastered"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:anvil"
+			id: "46AB909CB23C6C45"
+			tasks: [{
+				id: "15D16CE69A3BF82A"
+				type: "checkmark"
+			}]
+			title: "Rarity"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "5400A202BC90A107"
+			tasks: [{
+				id: "6D4A558A547651BA"
+				type: "checkmark"
+			}]
+			title: "Diet"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "704F0A846209F7DA"
+			tasks: [{
+				id: "4A1C1C6775171C13"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7AC3A7FA987B937F"
+			tasks: [{
+				id: "435F1FB5FAA716D6"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3A17E5AFE3234711"
+			tasks: [{
+				id: "2110EB83BDD10F60"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "516F5CE174A09DE6"
+			tasks: [{
+				id: "2EC9CD014C282058"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7CB839438A1ACC41"
+			tasks: [{
+				id: "32CB3BD33563FDC2"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5D1EA0529C69D1D0"
+			tasks: [{
+				id: "1B6BD6F60E0BEF48"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2F483DF6B07DE432"
+			tasks: [{
+				id: "32B848ACADB88CC6"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "32B239E9B137C4B0"
+			tasks: [{
+				id: "4E98181C6B5DFB68"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "61C860CC5CE7B7CE"
+			tasks: [{
+				id: "788D03A85DA86024"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5B9F41AB26BB5187"
+			tasks: [{
+				id: "2B4CA0F2EB7EE659"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "30FD16DE6B1B928C"
+			tasks: [{
+				id: "4C84B73E03F62D00"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "677E9E3081A933E1"
+			tasks: [{
+				id: "719CA7FFDF83AEF1"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3CCBED6C2D6E9EF9"
+			tasks: [{
+				id: "47430F44EC1EC4AB"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "557FFBFA2D9DA8CF"
+			tasks: [{
+				id: "10D2B5B6A549246A"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "36FA3437DA354290"
+			tasks: [{
+				id: "69A4686D8377EE22"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5CD007E278A860DC"
+			tasks: [{
+				id: "09CBDFD87EBB179F"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3909C5CCB002D888"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1A34CFAA7F0CE650"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "369CD50946B3B16C"
+				type: "dimension"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25D395DD81A92609"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "vampirism:cross"
+			id: "2BE9D6B807CF6616"
+			tasks: [{
+				id: "2451A0520D6F0658"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D395DD81A92609"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "vampirism:vampire_fang"
+			id: "00E7CE730D481D2D"
+			tasks: [{
+				id: "4858C11232DD84EF"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25D395DD81A92609"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "werewolves:werewolf_tooth"
+			id: "3946ADCFB30A6EDB"
+			tasks: [{
+				id: "21E67A52E76A757B"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	title: "Survival Overhaul"
+}

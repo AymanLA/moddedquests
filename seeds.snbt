@@ -1,0 +1,792 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "seeds"
+	group: "138E9D2D5FCC9B50"
+	icon: "minecraft:wheat_seeds"
+	id: "3B691F675FB53D8C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			icon: "chipped:dark_leaf_lily_pad"
+			id: "17475EF2763DEF04"
+			tasks: [{
+				id: "6B3D448234547896"
+				type: "checkmark"
+			}]
+			title: "Fall seeds"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			icon: "beachparty:beach_parasol"
+			id: "47CA29200C4DB0CB"
+			tasks: [{
+				id: "3CE6DC02BAD2A73B"
+				type: "checkmark"
+			}]
+			title: "Summer seeds"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			icon: "plushies:snow_golem_plushie"
+			id: "3EC4B53011EBFA86"
+			tasks: [{
+				id: "0EC0F2E311BFF793"
+				type: "checkmark"
+			}]
+			title: "Winter seeds"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E94B57FDCA4C23B"]
+			hide: true
+			icon: "botania:pink_shiny_flower"
+			id: "662E84996319F652"
+			tasks: [{
+				id: "13290A47B579C4B6"
+				type: "checkmark"
+			}]
+			title: "Spring seeds"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "333BDFE936E815DE"
+			tasks: [{
+				id: "791CF81561E3FB7E"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "3B3EE05FC51B8C2B"
+			tasks: [{
+				id: "651BF83DBCA4DBF6"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "166AB3264509D61E"
+			tasks: [{
+				id: "0745E5F9B694DB26"
+				item: "supplementaries:flax_seeds"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "570E544FDDE8BFC7"
+			tasks: [{
+				id: "7D90D60999D90987"
+				item: "croptopia:cabbage_seed"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "072E7D908B25F26F"
+			tasks: [{
+				id: "43E79897127D3F71"
+				item: "croptopia:celery_seed"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "7459BB403E02289D"
+			tasks: [{
+				id: "03A3FD45DE1870EE"
+				item: "croptopia:garlic_seed"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "4A8E59F2C245A47D"
+			tasks: [{
+				id: "017F348B4B6FE3B1"
+				item: "croptopia:leek_seed"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "373CF6028A7EDF89"
+			tasks: [{
+				id: "39FC3B905185EA7D"
+				item: "croptopia:lettuce_seed"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "6A87F73C8C0F611A"
+			tasks: [{
+				id: "4CD6E16CEF8908DB"
+				item: "croptopia:radish_seed"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["662E84996319F652"]
+			id: "73A4F01904AA5772"
+			tasks: [{
+				id: "3D3D680E7BD9ACFB"
+				item: "croptopia:spinach_seed"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "2687250424B7F880"
+			tasks: [{
+				id: "11666306D6DE2E77"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "5321EEC74EFE0BEC"
+			tasks: [{
+				id: "25B1D6148831F046"
+				item: "croptopia:blackbean_seed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "790A4D9436993BF3"
+			tasks: [{
+				id: "175A263125377510"
+				item: "minecraft:torchflower_seeds"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "486FBC794D48B529"
+			tasks: [{
+				id: "22F597211BC17D63"
+				item: "croptopia:coffee_seed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "6A6530EAE4911E4C"
+			tasks: [{
+				id: "130475C039C9DE30"
+				item: "croptopia:greenbean_seed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "1A8593EB7B43C82B"
+			tasks: [{
+				id: "428FDE923A619149"
+				item: "croptopia:greenonion_seed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "36DB804D23E51B1C"
+			tasks: [{
+				id: "6D0B44904773B6B1"
+				item: "croptopia:honeydew_seed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "2E4ACBA457948158"
+			tasks: [{
+				id: "640A5C202F1CE4A6"
+				item: "croptopia:kiwi_seed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "5A8434535EBD12AA"
+			tasks: [{
+				id: "135613CD1D04A774"
+				item: "croptopia:onion_seed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "7D440604EF5A0BB4"
+			tasks: [{
+				id: "4DEF151DCB39CA98"
+				item: "croptopia:pineapple_seed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "194B745D0FE5C75E"
+			tasks: [{
+				id: "6DC956C75B9BAFBF"
+				item: "croptopia:raspberry_seed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "43FE6CDB894649EC"
+			tasks: [{
+				id: "0FB40CC6A6DE869A"
+				item: "croptopia:rice_seed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "75D41D714FB7C0A2"
+			tasks: [{
+				id: "1558064DA0E0943F"
+				item: "croptopia:saguaro_seed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "675458CCCDD314E3"
+			tasks: [{
+				id: "5D9E03B9C7835661"
+				item: "croptopia:strawberry_seed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "5786D234C370C08F"
+			tasks: [{
+				id: "5321C84BB3568396"
+				item: "croptopia:tomatillo_seed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "52B01AAC885B98D8"
+			tasks: [{
+				id: "6348AEE0ABEC856D"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "7A13159E63018B01"
+			tasks: [{
+				id: "6ABC9C13C47A4F1D"
+				item: "vinery:jungle_grape_seeds_red"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "4985852492C7D166"
+			tasks: [{
+				id: "1985D63D9CAD016B"
+				item: "vinery:jungle_grape_seeds_white"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "716ACCA89A344977"
+			tasks: [{
+				id: "36DC6F3DF901FC27"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "30D41BAD7143CDD1"
+			tasks: [{
+				id: "7C58A7D0EC78B3C6"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "4C54DDE0C39FFB5F"
+			tasks: [{
+				id: "26C9E37136D59110"
+				item: "croptopia:broccoli_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "37EF292F223B125C"
+			tasks: [{
+				id: "7D5C2DF5CE480ADC"
+				item: "croptopia:cauliflower_seed"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "24A1F53DB8F5537E"
+			tasks: [{
+				id: "0B7BBEF6676443BB"
+				item: "croptopia:corn_seed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "3F0C9E9C8F83A1CB"
+			tasks: [{
+				id: "4FCC68644F18C3A4"
+				item: "croptopia:cucumber_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "1FCE808C3A967E90"
+			tasks: [{
+				id: "08C1822AD20CDBD5"
+				item: "croptopia:currant_seed"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "3E1F45B8BEEDEDDE"
+			tasks: [{
+				id: "21C5D6FFA4511EAF"
+				item: "croptopia:eggplant_seed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "677E05E7316CD64D"
+			tasks: [{
+				id: "1E79E305B95DC5DD"
+				item: "croptopia:grape_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "3FD37228823BF681"
+			tasks: [{
+				id: "74E4E24AB1F7FE17"
+				item: "croptopia:hops_seed"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "63C84E1DE737DAB8"
+			tasks: [{
+				id: "712CF923D5189C8E"
+				item: "croptopia:kale_seed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "08EE42188591C727"
+			tasks: [{
+				id: "4D7B615AD8E7E1AD"
+				item: "croptopia:olive_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "224BF82850548635"
+			tasks: [{
+				id: "4D7E92B35F42EAAF"
+				item: "croptopia:peanut_seed"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17475EF2763DEF04"]
+			id: "309713CE1DF13791"
+			tasks: [{
+				id: "7469A761166BD81B"
+				item: "croptopia:sweetpotato_seed"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3EC4B53011EBFA86"]
+			id: "0EECD752C00FFAB7"
+			tasks: [{
+				id: "716ED534B8BE10C7"
+				item: "croptopia:rhubarb_seed"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EC4B53011EBFA86"]
+			id: "5321B46C39FD20DD"
+			tasks: [{
+				id: "5CAB97D20CB11AD6"
+				item: "croptopia:rutabaga_seed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EC4B53011EBFA86"]
+			id: "6C34F809E97F5A1C"
+			tasks: [{
+				id: "11DB1EA7B3228432"
+				item: "croptopia:squash_seed"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EC4B53011EBFA86"]
+			id: "7CF67FA1FD402D0B"
+			tasks: [{
+				id: "0E1ED60C4EAE315F"
+				item: "croptopia:yam_seed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			id: "57826CF2D916355B"
+			tasks: [{
+				id: "1E71DAA16601A54D"
+				item: "croptopia:artichoke_seed"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			id: "5D538B39E32C1F87"
+			tasks: [{
+				id: "28959F9F5AE576AC"
+				item: "croptopia:asparagus_seed"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "4F8541CCD07DC4C1"
+			tasks: [{
+				id: "619D06F8F2173ABF"
+				item: "croptopia:barley_seed"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "4E126BCE4276CFB2"
+			tasks: [{
+				id: "5A24D5F904BF8B85"
+				item: "croptopia:basil_seed"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			id: "315A318234627615"
+			tasks: [{
+				id: "1ED77F451C1CAA7B"
+				item: "croptopia:bellpepper_seed"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			id: "309946AB217506EA"
+			tasks: [{
+				id: "25237E5CE1202679"
+				item: "croptopia:blackberry_seed"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			id: "52E2B249324EBF5B"
+			tasks: [{
+				id: "32D4876E20481768"
+				item: "croptopia:blueberry_seed"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			id: "29649F1972E1AB58"
+			tasks: [{
+				id: "733AF551FE740E43"
+				item: "croptopia:elderberry_seed"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			id: "3DDCDB4837D22E8B"
+			tasks: [{
+				id: "245FC53F8648D1AD"
+				item: "croptopia:ginger_seed"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "01AFAFB4177F1737"
+			tasks: [{
+				id: "4B73AE67C10B039E"
+				item: "croptopia:mustard_seed"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			id: "4F3CC49F7CFDD294"
+			tasks: [{
+				id: "17C6E6750C02A925"
+				item: "croptopia:oat_seed"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			id: "7B639D2ABC659381"
+			tasks: [{
+				id: "473450EE7131EB8D"
+				item: "croptopia:soybean_seed"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			id: "3D30F25DF767AB47"
+			tasks: [{
+				id: "59B321DB96336EF1"
+				item: "croptopia:tomato_seed"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "42ED330415F2DB40"
+			tasks: [{
+				id: "2A1B29A68801D990"
+				item: "croptopia:turmeric_seed"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "6786454AE44E52FC"
+			tasks: [{
+				id: "382EEE1798ECA53C"
+				item: "croptopia:zucchini_seed"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "2CA00168F3BBE7E0"
+			tasks: [{
+				id: "57A643F1BF91D46B"
+				item: "vinery:savanna_grape_seeds_red"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "393FC453D133F9C7"
+			tasks: [{
+				id: "5545BB3D40148FCE"
+				item: "vinery:savanna_grape_seeds_white"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"662E84996319F652"
+				"47CA29200C4DB0CB"
+			]
+			id: "48323F11F9AA40C3"
+			tasks: [{
+				id: "69AB262AB81A19A6"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			title: "Spring/Summer Seeds"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"47CA29200C4DB0CB"
+				"17475EF2763DEF04"
+			]
+			id: "3E96953D1DB9AED8"
+			tasks: [{
+				id: "5A6371719C8D7351"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3EC4B53011EBFA86"
+				"17475EF2763DEF04"
+			]
+			id: "60F71DA8838F5704"
+			tasks: [{
+				id: "113B238C085C6F58"
+				item: "vinery:taiga_grape_seeds_red"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47CA29200C4DB0CB"]
+			id: "09C6FD24E6B4C51A"
+			tasks: [{
+				id: "22C407CD03C5B206"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+	]
+	title: "Seeds"
+}
