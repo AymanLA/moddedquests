@@ -1,110 +1,418 @@
 {
+	autofocus_id: "60AAACE77F4B6F2D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "applied_energistics_2"
 	group: "6DA3C39A4417F765"
 	icon: "ae2:controller"
 	id: "0A9EDE75C0B371CB"
+	images: [
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_inside_a"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_inside_a"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_inside_a"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_inside_a"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_powered"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_powered"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_powered"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_powered"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/dense_energy_cell_4"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/dense_energy_cell_4"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/dense_energy_cell_4"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/dense_energy_cell_4"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/dense_energy_cell_4"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/dense_energy_cell_4"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/dense_energy_cell_4"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/dense_energy_cell_4"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/dense_energy_cell_4"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: -8.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"41595B3B4529F3E4"
-				"4804D8EC6CC08B02"
-			]
-			description: ["The ME Controller is the hub and centre of most ME networks. Each face can give thirty-two (32) channels, thereby expanding the capabilities of a given network."]
-			id: "67CAA6390B2C29FC"
+			dependencies: ["47922CC4FC0E24A9"]
+			description: ["You need inscribers to create processors which will be used by most blocks and items in AE2. From disks to terminals, you better automate the production and secure resources thereto."]
+			icon: "ae2:inscriber"
+			id: "60AAACE77F4B6F2D"
+			rewards: [{
+				id: "7EB6BCDF9F8CF545"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Graduate in Networking"
+			subtitle: "Entering Silicon Valley..."
 			tasks: [{
-				id: "0956B66B6D5A6237"
-				item: "ae2:controller"
+				id: "2855DBED02403D24"
+				item: "ae2:inscriber"
 				type: "item"
 			}]
+			title: "&l&bInscribers"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["49BD6D03716D6384"]
-			id: "41595B3B4529F3E4"
-			tasks: [{
-				count: 8L
-				id: "24BD47E3DE220694"
-				item: "ae2:engineering_processor"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5E87C31C24442F89"]
-			description: ["You need inscribers to create processors which will be used by most blocks and items in AE2. From disks to terminals, you better automate the production and secure resources thereto."]
-			icon: "ae2:inscriber"
-			id: "60AAACE77F4B6F2D"
-			subtitle: "TSMC's Baby Photos"
-			tasks: [
+			dependencies: [
+				"614D457B5FF247F8"
+				"7926856C2BFD5E73"
+			]
+			description: ["Meteorites contain various &oalien &rresources and technologies essential to Applied Energistics."]
+			icon: "ae2:mysterious_cube"
+			id: "5E87C31C24442F89"
+			rewards: [
 				{
-					count: 2L
-					id: "2855DBED02403D24"
-					item: "ae2:inscriber"
-					type: "item"
+					id: "3E386404F45F1014"
+					type: "xp"
+					xp: 10
 				}
 				{
-					id: "588BFD1875C7F51A"
-					item: "ae2:calculation_processor_press"
-					type: "item"
-				}
-				{
-					id: "1020B80B6C47BC87"
-					item: "ae2:engineering_processor_press"
-					type: "item"
-				}
-				{
-					id: "0318E04FFE278759"
-					item: "ae2:logic_processor_press"
-					type: "item"
-				}
-				{
-					id: "07A137C649F515B5"
-					item: "ae2:silicon_press"
-					type: "item"
+					id: "39D5EDBF6135C136"
+					type: "xp"
+					xp: 10
 				}
 			]
-			title: "Humble Fabs"
-			x: 0.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["49BD6D03716D6384"]
-			id: "3DFC7B63FA5E1EC5"
-			tasks: [{
-				count: 8L
-				id: "482C515DF10E0264"
-				item: "ae2:calculation_processor"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["49BD6D03716D6384"]
-			id: "67128D99D547FD42"
-			tasks: [{
-				count: 8L
-				id: "4787D31828CAE051"
-				item: "ae2:logic_processor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["614D457B5FF247F8"]
-			description: ["Meteorites contain various &oalien &rresources and technologies essential to Applied Energistics."]
-			icon: "ae2:sky_stone_block"
-			id: "5E87C31C24442F89"
 			subtitle: "Twinkle, Twinkle, Indeed"
 			tasks: [
 				{
@@ -120,21 +428,32 @@
 					type: "item"
 				}
 				{
-					id: "07541F6E028B9191"
-					structure: "ae2:meteorite"
-					title: "Visit a meteorite"
-					type: "structure"
+					count: 4L
+					id: "4022310C3F208052"
+					item: { Count: 4, id: "ae2:quartz_block" }
+					type: "item"
 				}
 			]
 			title: "Meteor Acquired"
 			x: 0.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5A44DBBD1018F1C0"]
 			description: ["Meteorites can be found by chance around the Overworld. But if you really want to make the search faster, a meteorite compass points you to the correct direction."]
-			hide: true
 			id: "614D457B5FF247F8"
+			rewards: [
+				{
+					id: "26CDC9C9420A91B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3D939CFD11ED0705"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Hot Meteors in Your Area"
 			tasks: [{
 				id: "3C0EA3064FC089CB"
@@ -142,52 +461,24 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["60AAACE77F4B6F2D"]
-			description: ["These are intermediate products that are used in the assembly of the Calculation, Logic, and Engineering Processors. Combine the silicon and printed circuit with redstone at the centre slot and watch (and wait) for the Inscriber to do its magic."]
-			id: "49BD6D03716D6384"
-			subtitle: "Two Words That May Scare Raj"
-			tasks: [
+			description: ["This marks the beginning of the chapter for &b&lApplied Energistics 2&r, a mod about a lot of items in drives using &otechnology&r and also automating most of everything under the Sun."]
+			id: "5A44DBBD1018F1C0"
+			rewards: [
 				{
-					count: 24L
-					id: "736327421397FE0E"
-					item: "ae2:printed_silicon"
-					type: "item"
+					id: "2208BAB326856CBA"
+					type: "xp"
+					xp: 100
 				}
 				{
-					count: 8L
-					id: "1CB6C1F7E2AFBF12"
-					item: { Count: 8, id: "ae2:printed_calculation_processor" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "0F6A1FDEC13F6A92"
-					item: { Count: 8, id: "ae2:printed_engineering_processor" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "7DE04DB75EE71D5C"
-					item: { Count: 8, id: "ae2:printed_logic_processor" }
-					type: "item"
+					id: "6944369DF1C9AA6D"
+					type: "xp"
+					xp: 10
 				}
 			]
-			title: "Printed Circuits"
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			description: ["This marks the beginning of the chapter for Applied Energistics 2, a mod about a lot of items in drives using *technology* and also automating most of everything under the Sun."]
-			id: "5A44DBBD1018F1C0"
-			rewards: [{
-				id: "2208BAB326856CBA"
-				type: "xp"
-				xp: 100
-			}]
-			size: 1.5d
+			size: 2.0d
 			subtitle: "Don Is Way Too Passionate About This Mod"
 			tasks: [{
 				id: "0CC30C0EA824EE8C"
@@ -196,14 +487,19 @@
 			}]
 			title: "Computer Engineering"
 			x: 0.0d
-			y: 9.75d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0E0B421B3FD87FE5"]
 			description: ["Fluix crystal is an unnatural resource made by mixing charged certus quartz, and redstone in water. &oTry throwing some into the toilet, just try not to flush it."]
 			icon: "ae2:fluix_crystal"
 			id: "4804D8EC6CC08B02"
-			subtitle: "The Dark Side"
+			rewards: [{
+				id: "79A26F3E3F053C25"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Just Add Water"
 			tasks: [
 				{
 					count: 8L
@@ -218,9 +514,9 @@
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 8L
 					id: "437523726E3F02F8"
-					item: { Count: 16, id: "minecraft:redstone" }
+					item: "minecraft:redstone"
 					type: "item"
 				}
 				{
@@ -231,13 +527,18 @@
 				}
 			]
 			title: "Fluix Crystal"
-			x: -3.0d
-			y: 3.5d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5A44DBBD1018F1C0"]
-			description: ["A charger... charges items placed in it, but it also creates charged certus quartz."]
+			description: ["A charger... charges items placed in it, but it also creates &b&lcharged certus quartz&r."]
 			id: "34770ECC010F8488"
+			rewards: [{
+				id: "20EFF87D3071D46F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Something Apple Doesn't Give You Anymore"
 			tasks: [
 				{
@@ -248,12 +549,13 @@
 				{
 					id: "5832647DC46886B1"
 					item: "ae2:crank"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Charger"
-			x: -3.0d
-			y: 8.0d
+			x: -1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -261,7 +563,12 @@
 				"34770ECC010F8488"
 			]
 			id: "0E0B421B3FD87FE5"
-			subtitle: "Electrifying..."
+			rewards: [{
+				id: "3782DD15FC6AF724"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "We do not know why it split"
 			tasks: [{
 				count: 16L
 				id: "6779D8FF089FDBB2"
@@ -269,298 +576,1147 @@
 				type: "item"
 			}]
 			title: "Charged Certus Quartz"
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["67CAA6390B2C29FC"]
-			id: "3F1A2E47962F6FE6"
-			subtitle: "don wanted to skip like 3 steps here but roasty said nah"
-			tasks: [{
-				count: 16L
-				id: "052301936EDF1516"
-				item: { Count: 16, id: "ae2:fluix_glass_cable" }
-				type: "item"
-			}]
-			title: "Fluix Connection"
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["67CAA6390B2C29FC"]
-			id: "23E8B07EEC934EAB"
-			subtitle: "gotta get energy there somehow"
-			tasks: [{
-				id: "2DBFC44CF5728C81"
-				item: "ae2:energy_acceptor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["67CAA6390B2C29FC"]
-			id: "4471DD88B97896EA"
-			optional: true
-			subtitle: "If you dont want to use another tech mod's energy you can use this"
-			tasks: [{
-				id: "0F1E744CA28B1DBD"
-				item: "ae2:vibration_chamber"
-				type: "item"
-			}]
 			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3F1A2E47962F6FE6"]
-			id: "0432F23E524D0F19"
-			tasks: [{
-				id: "63FF3B30EFC17BF9"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["3F1A2E47962F6FE6"]
-			id: "51B9D404687F9AF2"
-			tasks: [{
-				id: "531CA4576307C998"
-				item: "ae2:terminal"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0432F23E524D0F19"]
-			id: "320B0525FC7063AF"
-			tasks: [{
-				id: "2387E52622FB03DA"
-				item: {
-					Count: 1
-					id: "ae2:item_storage_cell_1k"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: [
-				"320B0525FC7063AF"
-				"462EE6862587EE71"
-			]
-			id: "5AE5D23E1C995082"
-			tasks: [{
-				id: "0B9E4E36557A17A5"
-				item: "ae2:drive"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["51B9D404687F9AF2"]
-			id: "462EE6862587EE71"
-			tasks: [{
-				id: "207DFAA8FEA0E53D"
-				item: "ae2:crafting_terminal"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E87C31C24442F89"]
-			id: "7336735F9AE7324E"
-			tasks: [{
-				id: "32B68D00956EE3AC"
-				item: "ae2:quartz_block"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7336735F9AE7324E"]
+			description: [
+				"Using certus quartz blocks and water, obtain some flawed budding crystal blocks. These crystals grow certus quartz but eventually deteriorate over time."
+				""
+				"&oIf there's only a way to have the flawless ones...&r"
+			]
 			id: "2AA467B292D50C4C"
-			rewards: [{
-				count: 4
-				id: "0C22D53D297ED94B"
-				item: "ae2:flawless_budding_quartz"
-				type: "item"
-			}]
-			subtitle: "using certus qurtz blocks and water, obtain some flawed budding crystals"
+			rewards: [
+				{
+					count: 4
+					id: "0C22D53D297ED94B"
+					item: "ae2:flawless_budding_quartz"
+					type: "item"
+				}
+				{
+					id: "122BC65F2692ABC2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Good enough..."
 			tasks: [{
 				count: 4L
 				id: "5C76F5A7ED6AFA45"
 				item: { Count: 4, id: "ae2:flawed_budding_quartz" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.5d
+			title: "Flawed Budding Certus Quartz Block"
+			x: 1.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["5AE5D23E1C995082"]
-			id: "265C35FCE48D0F2B"
-			subtitle: "The certus must grow!"
+			hide_dependent_lines: true
+			id: "729B4A2C5F32EBBA"
+			rewards: [{
+				id: "3236C9E43ADEBA23"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.0d
 			tasks: [{
-				id: "3C8781D76459EA4B"
-				item: "ae2:growth_accelerator"
+				id: "638E7DFF0D09933A"
+				item: "ae2:calculation_processor_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			hide: false
+			hide_dependent_lines: true
+			id: "59ACD9E647A9C0AD"
+			rewards: [{
+				id: "4AB8767CE8820AAE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "175680D9B2DA1486"
+				item: "ae2:engineering_processor_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "37182A408640C269"
+			rewards: [{
+				id: "2AA93E39069D580D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "23FA2731BF5CEE0A"
+				item: "ae2:logic_processor_press"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "30EB0E9C99480C7E"
+			rewards: [{
+				id: "58EA6BED665F5AA6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "5D1529306C98FF71"
+				item: "ae2:silicon_press"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"60AAACE77F4B6F2D"
+				"30EB0E9C99480C7E"
+				"59ACD9E647A9C0AD"
+			]
+			id: "14C760CED684A5F0"
+			rewards: [
+				{
+					id: "729ECE833FF4ECC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "600422F9C36A5440"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 1.125d
+			subtitle: "Intel® Core™ i7"
+			tasks: [{
+				count: 8L
+				id: "2499D5B2A1ED00BA"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			title: "Engineering Processor"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"60AAACE77F4B6F2D"
+				"30EB0E9C99480C7E"
+				"37182A408640C269"
+			]
+			id: "6B4D6D0E6D58D182"
+			rewards: [
+				{
+					id: "375AA818522B63F4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "54EDFA0314EAF520"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.125d
+			subtitle: "Intel® Core™ i5"
+			tasks: [{
+				count: 16L
+				id: "01837CE29D603399"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			title: "Logic Processor"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"60AAACE77F4B6F2D"
+				"30EB0E9C99480C7E"
+				"729B4A2C5F32EBBA"
+			]
+			id: "419C78CE70E05C5F"
+			rewards: [
+				{
+					id: "2E4686DA83FAE0A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5E90F4C526FE3BCE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.125d
+			subtitle: "Intel® Core™ i3"
+			tasks: [{
+				count: 16L
+				id: "2AA749DEDBC1F15B"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			title: "Calculation Processor"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AC77EB671F9993B"]
+			description: [
+				"The &b&lME Controller&r is at the heart of any ME System. It provides thirty-two (32) channels per face, and acts as a &erouter&r for the network. Channels always take the shortest possible path to the controller."
+				""
+				"You can also build Controllers up to 7x7x7 in dimensions."
+			]
+			id: "505A5D48E0FE6DCC"
+			rewards: [{
+				id: "2CEEE7425E2829F1"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Your server rack"
+			tasks: [{
+				id: "0F9DC003B5156EA5"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "&l&bME Controller"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["14C760CED684A5F0"]
+			id: "184949C24FA005E3"
+			rewards: [{
+				id: "3470D1996E7BA8F8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "No, this isn't CD-ROM"
+			tasks: [{
+				id: "21A943E1CE334558"
+				item: "ae2:drive"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["3F1A2E47962F6FE6"]
-			id: "49FD47632755AD0C"
-			optional: true
-			subtitle: "these cables help visualize channel paths or allow you to use up to 32 channels"
-			tasks: [
+			dependencies: ["419C78CE70E05C5F"]
+			id: "338F66507A42B4D7"
+			rewards: [{
+				id: "267482DE9C115709"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6A9D955FE2FF006F"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["338F66507A42B4D7"]
+			id: "7ED8C38BC3DE700C"
+			rewards: [{
+				id: "43050068BFC58FA8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7E269001AABF1691"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["338F66507A42B4D7"]
+			icon: "ae2:1k_crafting_storage"
+			id: "60B5D24E0BA12CBE"
+			rewards: [{
+				id: "7C4059953C6D708E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2A2F604869ACAA93"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["338F66507A42B4D7"]
+			id: "0735FD3A451CE492"
+			rewards: [{
+				id: "4FFCA4BF6DC602AF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "120270D61EF5FFD9"
+				item: "ae2:crafting_monitor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["184949C24FA005E3"]
+			icon_scale: 0.75d
+			id: "14DA2B4F3C69C73C"
+			rewards: [{
+				id: "54E214C79C563F7A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "69BD31CBD6751E03"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["14DA2B4F3C69C73C"]
+			icon_scale: 0.75d
+			id: "4F4764A41C3926BA"
+			rewards: [{
+				id: "0B23AA2E00E33410"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4C02B594FEC8B436"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"14DA2B4F3C69C73C"
+				"4F4764A41C3926BA"
+			]
+			icon_scale: 0.75d
+			id: "0B5198A411FF6B01"
+			rewards: [{
+				id: "4F4195088C5EBEF3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "63FCC0FE4580E30F"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"14DA2B4F3C69C73C"
+				"0B5198A411FF6B01"
+			]
+			icon_scale: 0.75d
+			id: "7E0BC9A68CEFABAC"
+			rewards: [{
+				id: "0717B6942615B4F8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1491C30885CE2DCF"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"14DA2B4F3C69C73C"
+				"7E0BC9A68CEFABAC"
+			]
+			icon_scale: 0.754d
+			id: "3751C6D9EF61A147"
+			rewards: [{
+				id: "6A5AA018866B838A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7CD8C756EAE05E9E"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0D02444A7427992B"
+				"4804D8EC6CC08B02"
+			]
+			description: [
+				"ME Cables connect devices throughout the ME Network, in addition to transferring power thereof. It comes in &eglass, covered,&r and &esmart&r varieties. Smart cables show how much channels are used/available. "
+				""
+				"ME Cables can only handle &l&neight (8)&r channels."
+			]
+			id: "47922CC4FC0E24A9"
+			rewards: [
 				{
-					id: "75E1E334E9E1A1A6"
+					count: 32
+					id: "2F0AD3CE98F11C2D"
 					item: "ae2:fluix_smart_cable"
 					type: "item"
 				}
 				{
-					id: "645E08C641E822DC"
+					id: "2870CA9C523669B2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Your Standard Ethernet Cable"
+			tasks: [{
+				count: 32L
+				id: "36FE96CC2114AF57"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ae2:glass_cable)"
+					}
+				}
+				title: "Any #ae2:glass_cable"
+				type: "item"
+			}]
+			title: "ME Cables"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "0D02444A7427992B"
+			rewards: [{
+				id: "2DCE643A77B057FD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7E9775A44F187982"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["184949C24FA005E3"]
+			id: "4AC77EB671F9993B"
+			rewards: [{
+				id: "0FAEF4CC94DEFD70"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "3E5E0AACDD491BE1"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "086293FC4D034709"
+					item: "ae2:crafting_terminal"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4A71D2944CB87145"
+				"2701EE6D63D17703"
+			]
+			id: "7668B2F433F2BB79"
+			rewards: [{
+				id: "5F9C6A95952CCA49"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.125d
+			tasks: [{
+				id: "363B71254D3405BE"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -5.0625d
+			y: -0.5625d
+		}
+		{
+			dependencies: ["6B4D6D0E6D58D182"]
+			icon_scale: 0.75d
+			id: "4A71D2944CB87145"
+			rewards: [{
+				id: "1EAD64881261CFDC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.75d
+			tasks: [{
+				id: "6B474483E1316D8B"
+				item: "ae2:formation_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B4D6D0E6D58D182"]
+			icon_scale: 0.75d
+			id: "2701EE6D63D17703"
+			rewards: [{
+				id: "6910258FFAD7F8FD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.75d
+			tasks: [{
+				id: "2B92303861644466"
+				item: "ae2:annihilation_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4A71D2944CB87145"
+				"2701EE6D63D17703"
+			]
+			id: "68A9CD9C7FCA0E0A"
+			rewards: [{
+				id: "3FEAA7296842F1E2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.125d
+			tasks: [{
+				id: "1E7F3324E4705C28"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -5.625d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2701EE6D63D17703"]
+			id: "2C53782630C0E791"
+			rewards: [{
+				id: "0FD7398EAB3B3C2F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "444D6F35CF2CBD8E"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A71D2944CB87145"]
+			id: "75502B53360CCEF4"
+			rewards: [{
+				id: "3D7DA7E29CE7B6CA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0CA648592D3F74C2"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4A71D2944CB87145"
+				"2701EE6D63D17703"
+			]
+			id: "5CD02B45DED4C441"
+			rewards: [{
+				id: "4B0FCA6B346323AF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.125d
+			tasks: [{
+				id: "2C374B74D9866CF8"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -5.0625d
+			y: 0.5625d
+		}
+		{
+			dependencies: ["338F66507A42B4D7"]
+			icon: "ae2:4k_crafting_storage"
+			id: "0F0A19C591C3E3EB"
+			rewards: [{
+				id: "04D185A661603B07"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3AD17C1DCC6DBA03"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338F66507A42B4D7"]
+			icon: "ae2:16k_crafting_storage"
+			id: "2CF68CBB01D304C2"
+			rewards: [{
+				id: "23209AA215E1353F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "15810F3DC89BA9F8"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["338F66507A42B4D7"]
+			icon: "ae2:64k_crafting_storage"
+			id: "770877FF38E5EA20"
+			rewards: [{
+				id: "79D388FDFB30604A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5A2F8860B0471001"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["338F66507A42B4D7"]
+			icon: "ae2:256k_crafting_storage"
+			id: "05830072D6CBBCE2"
+			rewards: [{
+				id: "0FAEA130D45301C5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "715BD0BD366202F4"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["505A5D48E0FE6DCC"]
+			description: ["ME Dense cables, unlike their smaller brethren, can handle &n&lthirty-two (32) channels&r instead of eight (8). However, they cannot connect to buses; but they can connect to the face of a P2P cable."]
+			icon: "ae2:fluix_smart_dense_cable"
+			id: "15D7294A0407519E"
+			rewards: [
+				{
+					count: 16
+					id: "7FCBC16CAA6D6477"
 					item: "ae2:fluix_smart_dense_cable"
 					type: "item"
 				}
 				{
-					id: "10187C8B9B849850"
-					item: "ae2:fluix_covered_dense_cable"
-					type: "item"
+					id: "51044C63251745CA"
+					type: "xp"
+					xp: 10
 				}
 			]
-			title: "Alternative cables"
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["265C35FCE48D0F2B"]
-			id: "05CA46E431B89E44"
-			tasks: [
-				{
-					count: 8L
-					id: "4125783D19D84048"
-					item: { Count: 8, id: "ae2:speed_card" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "5D2C12BA58D038D7"
-					item: { Count: 8, id: "ae2:energy_card" }
-					type: "item"
-				}
-			]
-			title: "Upgrades people, upgrades"
-			x: 0.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["05CA46E431B89E44"]
-			id: "7CC3C5DAB943E890"
-			subtitle: "where'd the cables go?"
-			tasks: [
-				{
-					id: "630D0DD58E819EB5"
-					item: "ae2:wireless_receiver"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "296261D50265B5FD"
-					item: { Count: 16, id: "ae2:wireless_booster" }
-					type: "item"
-				}
-			]
-			title: "Wireless ME"
-			x: 0.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["7CC3C5DAB943E890"]
-			id: "1BF1C05A8DE81FA3"
-			subtitle: "oh yeah, its all coming together"
+			shape: "hexagon"
+			subtitle: "t h i c c "
 			tasks: [{
-				id: "609330E0228B012E"
-				item: "ae2:wireless_crafting_terminal"
+				count: 16L
+				id: "08E4E10BC6F94F80"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ae2:covered_dense_cable)"
+					}
+				}
+				title: "Any #ae2:covered_dense_cable"
 				type: "item"
 			}]
-			title: "Wireless Crafting Terminal"
-			x: 0.0d
-			y: -8.5d
+			title: "ME Dense Cables"
+			x: -1.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["1BF1C05A8DE81FA3"]
-			hide: true
-			hide_dependency_lines: true
-			id: "5FE7F1B17179C80F"
-			optional: true
-			rewards: [
+			dependencies: ["505A5D48E0FE6DCC"]
+			id: "43C17303BE4C3A37"
+			rewards: [{
+				id: "0FCD3604BBD3DD8E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5DE1BA48650604F7"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03497B2B1892B1CE"]
+			id: "7A55B2CFCE5259BF"
+			rewards: [{
+				id: "49175A3BFD297B5D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Entangled forever... and ever"
+			tasks: [{
+				count: 2L
+				id: "00618F5175DAAC1A"
+				item: { Count: 2, id: "ae2:quantum_entangled_singularity" }
+				type: "item"
+			}]
+			title: "Quantum Entangled Singularity"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["505A5D48E0FE6DCC"]
+			id: "1788DE80C1DA4286"
+			rewards: [{
+				id: "6C42BF800E0C7207"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			subtitle: "Network of a network"
+			tasks: [{
+				advancement: "ae2:main/recursive"
+				criterion: ""
+				id: "4DB8AB39EABB74F6"
+				type: "advancement"
+			}]
+			title: "Recursive Networking"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["505A5D48E0FE6DCC"]
+			description: ["ME P2P (peer-to-peer or point-to-point) Tunnels are an excellent way to tidy up cables by connecting one input to infinite (theoretically) outputs. A well-done P2P system can fit thousands of channels in one dense cable."]
+			icon: "ae2:me_p2p_tunnel"
+			id: "539E7221EDE2D16D"
+			rewards: [{
+				id: "65D1E32ED9FDC2C5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			subtitle: "Welcome to cable management"
+			tasks: [
 				{
-					count: 64
-					id: "464FCEF487FAE1B3"
-					item: "ae2:fluix_crystal"
+					count: 2L
+					id: "464E2E245D503E17"
+					item: "ae2:me_p2p_tunnel"
 					type: "item"
 				}
 				{
-					count: 64
-					id: "2DD9B6C0AC000A6A"
-					item: "ae2:charged_certus_quartz_crystal"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "6A167CFCEC6F7498"
-					item: "ae2:sky_stone_block"
+					id: "63C98D031D3F9661"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 2.0d
-			subtitle: "Theres a few extra things you can do, but youve learned the basics of AE2!"
-			tasks: [{
-				id: "0AF99E5FADFCF17A"
-				title: "Thank you!"
-				type: "checkmark"
-			}]
-			title: "We hope you enjoyed"
-			x: 0.0d
-			y: 14.5d
+			title: "ME P2P Tunnel"
+			x: 1.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["5FE7F1B17179C80F"]
-			id: "0FA87788AE4B6C7F"
+			dependencies: ["505A5D48E0FE6DCC"]
+			id: "03497B2B1892B1CE"
+			rewards: [{
+				id: "35E91C792C15CC7C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
-				id: "207550501E77D756"
+				id: "2266645112FDBFE5"
 				item: "ae2:condenser"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 14.5d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["0FA87788AE4B6C7F"]
-			id: "4F351B17957C6A3F"
+			dependencies: ["03497B2B1892B1CE"]
+			icon: "ae2:matter_ball"
+			id: "78CE4E77FA2F0BA3"
+			rewards: [{
+				id: "5A2FB1DB7132B2A3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Somewhat Many Items"
 			tasks: [{
-				id: "6263D7E7323BE461"
+				count: 64L
+				id: "28BC4F4C25748A3F"
 				item: "ae2:matter_ball"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 14.5d
+			title: "Matter Balls"
+			x: 4.5d
+			y: -9.0d
 		}
 		{
-			dependencies: ["4F351B17957C6A3F"]
-			id: "100C7342D9AFB463"
+			dependencies: ["03497B2B1892B1CE"]
+			id: "6B11E20ACF483F4C"
+			rewards: [{
+				id: "4A234791BCAD236E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Too Many Items"
 			tasks: [{
-				id: "684FD707F8D1D200"
+				id: "3752FAE612BA60E3"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			title: "Singularity"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A55B2CFCE5259BF"]
+			icon: "ae2:quantum_link"
+			id: "73452CC1C4D61006"
+			rewards: [{
+				id: "54A22992EAA3CF43"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "It finds ways"
+			tasks: [
+				{
+					count: 8L
+					id: "2491BB2086632AA2"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "654F99F1072C23DB"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "Quantum Link Bridge"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0AE89FAD7189392F"
+				"5EE7D9C3D2FDD5DD"
+				"68E2D27856BB7406"
+				"7FC1F769ACFC8748"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon_scale: 0.75d
+			id: "6BAAE9DADB085371"
+			rewards: [{
+				id: "01575153A9FD9AC3"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Everything, everywhere, all at once"
+			tasks: [{
+				id: "0305FD38F0564994"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["4E8597D431AAC6AF"]
+			id: "594CD9125340AA86"
+			rewards: [{
+				id: "165235D6E2FA094D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "04884EC56DC6D517"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["594CD9125340AA86"]
+			icon: "ae2wtlib:wireless_pattern_access_terminal"
+			icon_scale: 0.75d
+			id: "0AE89FAD7189392F"
+			rewards: [{
+				id: "23CF67E590044984"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7A29A88C55E7E6F9"
+				item: "ae2wtlib:wireless_pattern_access_terminal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -15.275d
+		}
+		{
+			dependencies: ["594CD9125340AA86"]
+			icon_scale: 0.75d
+			id: "5EE7D9C3D2FDD5DD"
+			rewards: [{
+				id: "62B55BFED448FA37"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "08EAA61BBD74CABE"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -15.275d
+		}
+		{
+			dependencies: ["594CD9125340AA86"]
+			icon_scale: 0.75d
+			id: "68E2D27856BB7406"
+			rewards: [{
+				id: "33DDC0884DD67AA8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2CBD13B6BDDA62E3"
+				item: {
+					Count: 1
+					id: "ae2:wireless_crafting_terminal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.775d
+		}
+		{
+			dependencies: [
+				"0AE89FAD7189392F"
+				"5EE7D9C3D2FDD5DD"
+				"68E2D27856BB7406"
+			]
+			icon_scale: 0.9d
+			id: "7FC1F769ACFC8748"
+			rewards: [{
+				id: "6CC3AFDC811C8ACD"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Three-in-one"
+			tasks: [{
+				id: "0685558CA2BD4423"
+				item: {
+					Count: 1
+					id: "ae2wtlib:wireless_universal_terminal"
+					tag: {
+						crafting: 1b
+						internalMaxPower: 4800000.0d
+						pattern_access: 1b
+						pattern_encoding: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["594CD9125340AA86"]
+			icon_scale: 0.75d
+			id: "7C8303BE97105E2E"
+			optional: true
+			rewards: [{
+				id: "584006ED63AA6E85"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "75019F58DE4EF91B"
+				item: "ae2wtlib:magnet_card"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -15.775d
+		}
+		{
+			dependencies: ["594CD9125340AA86"]
+			icon_scale: 0.75d
+			id: "3ED5DF309E383B87"
+			optional: true
+			rewards: [{
+				id: "66412A2BBDC4770C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1478A05E02EFC95A"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.775d
+		}
+		{
+			dependencies: ["505A5D48E0FE6DCC"]
+			id: "4E8597D431AAC6AF"
+			rewards: [{
+				id: "7137ABD5BBD0DCD4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5E9CA6114E8724EC"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4E8597D431AAC6AF"]
+			id: "76482F4FDC4EECFE"
+			rewards: [{
+				id: "7D8B269B9D38E032"
+				type: "xp"
+				xp: 10
+			}]
+			size: 0.5d
+			tasks: [{
+				count: 16L
+				id: "0DFC7CF19A8D43E3"
+				item: { Count: 16, id: "ae2:wireless_booster" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -11.5d
+		}
+		{
+			dependencies: ["78CE4E77FA2F0BA3"]
+			id: "1D41F0551B2DE3A6"
+			rewards: [{
+				id: "177BA0A0999F7676"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Pew pew"
+			tasks: [{
+				id: "3D1C0B09868BC81B"
 				item: {
 					Count: 1
 					id: "ae2:matter_cannon"
@@ -568,54 +1724,139 @@
 				}
 				type: "item"
 			}]
+			x: 4.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["14DA2B4F3C69C73C"]
+			id: "191A19256B0122CC"
+			rewards: [{
+				id: "026D53973871D89C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7EAFFE7FEC25E8F7"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14DA2B4F3C69C73C"]
+			id: "5AE3161C488FBF8E"
+			rewards: [{
+				id: "5FE61BCA694D851E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3E7834E6AED2036B"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14DA2B4F3C69C73C"]
+			id: "6F7AA4CDD65FBA57"
+			optional: true
+			rewards: [{
+				id: "2F52F69CE7AA6487"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "36DB7C0239EDE042"
+				item: "appmek:chemical_cell_housing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			description: ["You may encounter a meteorite made from &b&lskystone&r in your journeys or your compass has led you there. Grab a pickaxe and see what's inside."]
+			icon: "ae2:sky_stone_block"
+			id: "7926856C2BFD5E73"
+			rewards: [{
+				id: "0BCB323255FD1185"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "ALIENS! ALIENS, I SAY!"
+			tasks: [{
+				id: "5801A232A1570BD0"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			title: "Alien Meteorites"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["34770ECC010F8488"]
+			description: ["The &b&lEnergy Acceptor&r does what the name suggests. It accepts energy and converts it to &eAE Energy&r. It is not required, however, since most machines can be plugged in directly."]
+			hide_dependency_lines: true
+			id: "1DFFA194B05F791B"
+			optional: true
+			rewards: [{
+				id: "21511A35B9F56BA8"
+				type: "xp"
+				xp: 10
+			}]
+			size: 0.5d
+			subtitle: "The Power Adapter"
+			tasks: [{
+				id: "76FC3B469B6A619A"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 7.5d
+		}
+		{
+			id: "6536499980DF2388"
+			invisible: true
+			rewards: [{
+				id: "04E22246D6D95A28"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "UNLIMITED CERTUS!!!"
+			tasks: [{
+				id: "0AF37335ABF788F7"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
 			x: 3.5d
-			y: 14.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["5FE7F1B17179C80F"]
-			id: "46B7AB00478F7696"
+			dependencies: ["47922CC4FC0E24A9"]
+			id: "2014D7BD5D589EED"
+			rewards: [{
+				id: "39F0425A2036A4AD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Faster Crystal Production"
 			tasks: [{
-				id: "38D3C6032542DE85"
-				item: "ae2:not_so_mysterious_cube"
+				count: 2L
+				id: "42009B59661CF08A"
+				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["5FE7F1B17179C80F"]
-			id: "50B75E2F459D93F7"
-			tasks: [{
-				id: "0FEBDE1FEE94312E"
-				item: "ae2:crafting_unit"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 14.5d
-		}
-		{
-			dependencies: ["50B75E2F459D93F7"]
-			id: "27C2D93F55515946"
-			tasks: [{
-				id: "72D586B0F9CAF404"
-				item: "ae2:crafting_accelerator"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 14.5d
-		}
-		{
-			dependencies: ["27C2D93F55515946"]
-			id: "611C550073EFF5E0"
-			tasks: [{
-				id: "507557DC9DB22C17"
-				item: "ae2:1k_crafting_storage"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 14.5d
+			x: 1.5d
+			y: 2.5d
 		}
 	]
-	subtitle: ["The cooler storage solution™"]
-	title: "Applied Energistics 2"
+	subtitle: ["&dThe cooler storage solution™"]
+	title: "&l&bApplied Energistics 2"
 }
