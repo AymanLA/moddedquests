@@ -1,0 +1,407 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "6DA3C39A4417F765"
+	icon: "mekanism:basic_energy_cube"
+	id: "598F44DB8D481510"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2469F41F13B03551"]
+			icon: "mekanism:basic_energy_cube"
+			id: "4DC41C49DDF706A8"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "195ABFCBBBCC691F"
+				title: "Get Mekanized"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DC41C49DDF706A8"]
+			id: "48AF5956DC391169"
+			tasks: [{
+				id: "732067D02CF6F25D"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "A Metallur-what?"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48AF5956DC391169"]
+			id: "7D37D8ACC570B87A"
+			tasks: [{
+				count: 16L
+				id: "3F2AF0243B10B950"
+				item: { Count: 16, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			title: "Infusion Potential"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48AF5956DC391169"]
+			id: "02AADAD91E56EC81"
+			tasks: [{
+				count: 8L
+				id: "2B82A98391338314"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			title: "Tricking a rock into thinking"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4DC41C49DDF706A8"]
+			id: "04F9683A19065E83"
+			optional: true
+			subtitle: "Basic energy generation"
+			tasks: [{
+				id: "20B08F44547D606B"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"02AADAD91E56EC81"
+				"7D37D8ACC570B87A"
+			]
+			hide_dependent_lines: true
+			id: "04AED5EA2C17C14E"
+			tasks: [{
+				id: "05CEC51C5A29DD25"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Enrichment activities"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04AED5EA2C17C14E"]
+			id: "58F7754920DA8737"
+			tasks: [{
+				id: "2179139976E08DCD"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["58F7754920DA8737"]
+			id: "29767618EB3D7248"
+			tasks: [{
+				id: "348C22EF01F25D3D"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			title: "I always hated getting coal too."
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["29767618EB3D7248"]
+			id: "0EE7A87A2250F6B4"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0611CE371F4C4CA9"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+				{
+					id: "63A7766551C23578"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+				{
+					id: "7709B5DA5209AFD5"
+					item: "mekanism:electric_pump"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["4DC41C49DDF706A8"]
+			id: "3F2033BB9791D12B"
+			tasks: [
+				{
+					count: 8L
+					id: "38FC9955DE66BA94"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "563EE409F9B3BE10"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "50FC241B2A95BAFB"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1342D0E650F1B43A"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+			]
+			title: "&aBasic Connectivity"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EE7A87A2250F6B4"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "mekanism:basic_bin"
+			id: "540DF41DBD5ECE3D"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "01E9EFF551F221B0"
+				title: "Tier 1: Basic"
+				type: "checkmark"
+			}]
+			title: "&aTier 1: Basic"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["540DF41DBD5ECE3D"]
+			id: "34ECB0274F4C4330"
+			subtitle: "Infusion, but 3!"
+			tasks: [{
+				id: "1085591558567E86"
+				item: "mekanism:basic_infusing_factory"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["540DF41DBD5ECE3D"]
+			id: "697355DAFD74D3B6"
+			tasks: [{
+				id: "509407593908F753"
+				item: "mekanism:basic_smelting_factory"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["540DF41DBD5ECE3D"]
+			id: "60886F98B3FBBA0A"
+			tasks: [{
+				id: "270C7B5E3BE536CC"
+				item: "mekanism:basic_crushing_factory"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["540DF41DBD5ECE3D"]
+			id: "08DE1BA34F399490"
+			tasks: [{
+				id: "695332EDDBDE8EF1"
+				item: "mekanism:basic_enriching_factory"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"34ECB0274F4C4330"
+				"08DE1BA34F399490"
+			]
+			id: "15D94936216CC38D"
+			tasks: [{
+				id: "7EC177A5537EBF01"
+				item: "mekanism:basic_purifying_factory"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["540DF41DBD5ECE3D"]
+			id: "14BAC497CFFA67F8"
+			subtitle: "Explore the possibilities of osmium compression"
+			tasks: [{
+				id: "1B41C5A9432EBC0D"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			title: "Compression"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14BAC497CFFA67F8"]
+			id: "25908E3A94696168"
+			tasks: [{
+				count: 8L
+				id: "1CA361572A00AF3A"
+				item: { Count: 8, id: "mekanism:ingot_refined_glowstone" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4DC41C49DDF706A8"]
+			id: "11550376CF9AAC84"
+			tasks: [
+				{
+					id: "793117C39DD4C4C9"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "323CA3616089C7A6"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F64E767EED42BFB"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Osmium tooling"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11550376CF9AAC84"]
+			id: "454749FB5DDD211B"
+			tasks: [{
+				id: "5EBAEB6C3C4CB877"
+				item: {
+					Count: 1
+					id: "mekanismtools:osmium_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25908E3A94696168"]
+			id: "181BDF0FE8177150"
+			tasks: [{
+				id: "674FE2BDE4E93D2D"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_glowstone_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Glowstone Tooling"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"25908E3A94696168"
+				"04AED5EA2C17C14E"
+			]
+			id: "7AC20C77E9EAAF0C"
+			tasks: [{
+				id: "095481587FD8602C"
+				item: "mekanism:dust_obsidian"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AC20C77E9EAAF0C"]
+			id: "30A2EE777E1BA49C"
+			tasks: [{
+				id: "77FAC4545880F61F"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30A2EE777E1BA49C"]
+			id: "02E580AE616AECBD"
+			tasks: [{
+				id: "6F2F7D6F64263DD2"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02E580AE616AECBD"]
+			id: "347BA76B46933341"
+			tasks: [{
+				id: "4F50DFD689550247"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Best Paxel"
+			x: 7.0d
+			y: 5.5d
+		}
+	]
+	title: "Mekanism"
+}
