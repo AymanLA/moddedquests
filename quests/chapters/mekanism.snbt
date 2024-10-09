@@ -114,6 +114,7 @@
 		}
 		{
 			dependencies: ["29767618EB3D7248"]
+			hide_dependent_lines: true
 			id: "0EE7A87A2250F6B4"
 			shape: "diamond"
 			size: 1.5d
@@ -333,8 +334,9 @@
 		{
 			dependencies: ["25908E3A94696168"]
 			id: "181BDF0FE8177150"
+			optional: true
 			tasks: [{
-				id: "674FE2BDE4E93D2D"
+				id: "7E7D071672A7A8F9"
 				item: {
 					Count: 1
 					id: "mekanismtools:refined_glowstone_paxel"
@@ -387,6 +389,7 @@
 		{
 			dependencies: ["02E580AE616AECBD"]
 			id: "347BA76B46933341"
+			optional: true
 			tasks: [{
 				id: "4F50DFD689550247"
 				item: {
@@ -401,6 +404,343 @@
 			title: "Best Paxel"
 			x: 7.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["14BAC497CFFA67F8"]
+			id: "2F417F1A3A3934F7"
+			optional: true
+			tasks: [{
+				id: "18A79A2BAC6D10C7"
+				item: "mekanism:basic_compressing_factory"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["540DF41DBD5ECE3D"]
+			id: "460617628CA31B39"
+			subtitle: "Begin exploring energy storage"
+			tasks: [{
+				id: "37ADCC1E45B1FD05"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			title: "Save some for later"
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["460617628CA31B39"]
+			description: [
+				"Wind generation is a foundational element of mid-level mekanism energy generation."
+				"You can place large amounts of them in series to generate large amounts of consistent FE generation."
+				"The higher the elevation of the wind generator, the more FE it will generate per tick."
+			]
+			id: "74F4C3935AA3AF7D"
+			subtitle: "Wind generation!"
+			tasks: [{
+				id: "7DAB02E11FEE3D74"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			title: "It's like dutch or something"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["460617628CA31B39"]
+			description: ["Solar Generators only generate FE during the daytime, in occordance with the solar cycle."]
+			id: "7EF6D6EC7E96E304"
+			tasks: [{
+				id: "57203EF7C9A54E71"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			title: "Solar Roof"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EE7A87A2250F6B4"]
+			id: "1479BB4717430A69"
+			optional: true
+			shape: "hexagon"
+			subtitle: "Discover what happens when you place an ore in the purification chamber"
+			tasks: [{
+				count: 2L
+				id: "4711C9C0725C435A"
+				item: { Count: 2, id: "mekanism:clump_osmium" }
+				type: "item"
+			}]
+			title: "Getting more than you gave"
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1479BB4717430A69"]
+			id: "675361D08E39177F"
+			optional: true
+			subtitle: "Crusher.."
+			tasks: [{
+				count: 2L
+				id: "2B3FB4CEA1FBB199"
+				item: "mekanism:dirty_dust_osmium"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["675361D08E39177F"]
+			id: "1F078CD307D0267F"
+			optional: true
+			subtitle: "Enrichment.."
+			tasks: [{
+				count: 2L
+				id: "5B22E0FED912FB9E"
+				item: { Count: 2, id: "mekanism:dust_osmium" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1F078CD307D0267F"]
+			id: "75AC694D355E39FC"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				count: 8
+				id: "6CA2508B0EA1B966"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			subtitle: "Smelter.."
+			tasks: [{
+				count: 2L
+				id: "5EFAAA8DD9100786"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["540DF41DBD5ECE3D"]
+			id: "711BC37B0416C129"
+			subtitle: "Introduce yourself to mekanism item management"
+			tasks: [{
+				id: "326524C6B250EF5E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:personal_storage)"
+					}
+				}
+				title: "Any #mekanism:personal_storage"
+				type: "item"
+			}]
+			title: "Personal Storage"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["711BC37B0416C129"]
+			id: "0E79C63F33043D94"
+			subtitle: "Introduce yourself to the basics of mekanism item sorting"
+			tasks: [{
+				id: "3AA3CC89AD5179BF"
+				item: "mekanism:logistical_sorter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E79C63F33043D94"]
+			id: "0AFF9357AA543BB7"
+			subtitle: "High tech drawer"
+			tasks: [{
+				id: "78E787759A586F65"
+				item: "mekanism:basic_bin"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["460617628CA31B39"]
+			id: "2BA9A4FEDE45CA57"
+			tasks: [{
+				id: "46FEB770C1244C41"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"15D94936216CC38D"
+				"697355DAFD74D3B6"
+				"60886F98B3FBBA0A"
+				"02E580AE616AECBD"
+				"0AFF9357AA543BB7"
+			]
+			hide_dependency_lines: true
+			icon: "mekanism:advanced_bin"
+			id: "719D3769B0B135F0"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7918F82C75297719"
+				title: "Tier 2: Advanced"
+				type: "checkmark"
+			}]
+			title: "&cTier 2: Advanced"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["719D3769B0B135F0"]
+			id: "46DADD90A74CC738"
+			tasks: [
+				{
+					id: "7682A6462E5C105A"
+					item: "mekanism:advanced_smelting_factory"
+					type: "item"
+				}
+				{
+					id: "15844F7C5C4245A1"
+					item: "mekanism:advanced_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "4FFCEEC8D88BE8B0"
+					item: "mekanism:advanced_crushing_factory"
+					type: "item"
+				}
+				{
+					id: "640210DB89B5F6F1"
+					item: "mekanism:advanced_compressing_factory"
+					type: "item"
+				}
+				{
+					id: "6AFD6D1FA01D606C"
+					item: "mekanism:advanced_purifying_factory"
+					type: "item"
+				}
+				{
+					id: "24B98A68FF271C12"
+					item: "mekanism:advanced_infusing_factory"
+					type: "item"
+				}
+			]
+			title: "&cAdvanced Factories"
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["719D3769B0B135F0"]
+			id: "6807E7B5D8B26A63"
+			tasks: [
+				{
+					id: "7EF8CCB8AEEB2000"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+				{
+					id: "0CCDB408B82BB767"
+					item: "mekanism:advanced_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "18598F1A03086080"
+					item: "mekanism:advanced_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "7F8258F38F375673"
+					item: "mekanism:advanced_logistical_transporter"
+					type: "item"
+				}
+			]
+			title: "&cAdvanced Connectivity"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["540DF41DBD5ECE3D"]
+			id: "4A474D93D821D766"
+			tasks: [
+				{
+					id: "098B9CCB4C4AD82E"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "302386A4F6D786F0"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+			]
+			title: "&aBasic Storage"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["719D3769B0B135F0"]
+			id: "690090CC5151C620"
+			tasks: [
+				{
+					id: "6332CBE25C383FCB"
+					item: "mekanism:advanced_energy_cube"
+					type: "item"
+				}
+				{
+					id: "5F4F5B240F347924"
+					item: "mekanism:advanced_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "63537A1D09EEBB70"
+					item: "mekanism:advanced_chemical_tank"
+					type: "item"
+				}
+				{
+					id: "5DA8FEC421C20AA5"
+					item: "mekanism:advanced_bin"
+					type: "item"
+				}
+			]
+			title: "&cAdvanced Storage"
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["719D3769B0B135F0"]
+			id: "64AE6B6102A46FB8"
+			tasks: [{
+				id: "0D32CED7B9717BF9"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64AE6B6102A46FB8"]
+			id: "5603399856D16021"
+			tasks: [{
+				count: 2L
+				id: "2F047B54FAC78137"
+				item: { Count: 2, id: "mekanism:bio_fuel" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
 		}
 	]
 	title: "Mekanism"
