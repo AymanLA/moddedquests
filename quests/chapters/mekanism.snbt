@@ -742,6 +742,451 @@
 			x: 19.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["5603399856D16021"]
+			id: "2EFA7975B1EBF171"
+			subtitle: "Ethylene gas can be burned in a gas burning generator for an efficient energy generation method"
+			tasks: [{
+				id: "6DF46FBD29E53689"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EFA7975B1EBF171"]
+			id: "772365BC29C4ACD5"
+			tasks: [{
+				id: "230DB36607CB02A4"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["772365BC29C4ACD5"]
+			id: "5E6BB10FF4704073"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:ethene"
+				id: "31109DB250DED609"
+				type: "fluid"
+			}]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E6BB10FF4704073"]
+			id: "5F51CB9C9CE758DC"
+			subtitle: "Using Ethylene, substrate, and a pressurized reaction chamber, create some HDPE pellets"
+			tasks: [{
+				id: "2D4D5AA6F55433DC"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["719D3769B0B135F0"]
+			id: "2B920C20A93911E6"
+			subtitle: "ik you need one"
+			tasks: [
+				{
+					id: "1A14EC1183DF3FE6"
+					item: "mekanism:robit"
+					type: "item"
+				}
+				{
+					id: "20357287AD5348C4"
+					item: "mekanism:chargepad"
+					type: "item"
+				}
+			]
+			title: "Manufacture a friend"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B920C20A93911E6"]
+			id: "423446494FF2E4E3"
+			optional: true
+			subtitle: "Yes, everyone else already has one. Yes, all the ores are already gone. Good luck!"
+			tasks: [{
+				id: "5B10D74AE4BCC892"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "Mekanism finally gets cool"
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6807E7B5D8B26A63"
+				"46DADD90A74CC738"
+				"690090CC5151C620"
+				"5F51CB9C9CE758DC"
+			]
+			hide_dependency_lines: true
+			icon: "mekanism:elite_bin"
+			id: "66BB9B5FA159925B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0ABA962D06AABFB5"
+				title: "Tier 3: Reinforced"
+				type: "checkmark"
+			}]
+			title: "&bTier 3: Elite"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66BB9B5FA159925B"]
+			id: "476C1C432CFD34B2"
+			tasks: [
+				{
+					id: "799169E02683AD45"
+					item: "mekanism:elite_smelting_factory"
+					type: "item"
+				}
+				{
+					id: "15C9198AD095E374"
+					item: "mekanism:elite_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "5B139EA281B1DA85"
+					item: "mekanism:elite_crushing_factory"
+					type: "item"
+				}
+				{
+					id: "137E0E4106BB4DE1"
+					item: "mekanism:elite_compressing_factory"
+					type: "item"
+				}
+				{
+					id: "56E887541D9B9E3F"
+					item: "mekanism:elite_purifying_factory"
+					type: "item"
+				}
+				{
+					id: "5FEEA6083E270A0B"
+					item: "mekanism:elite_injecting_factory"
+					type: "item"
+				}
+			]
+			title: "&bElite Factories"
+			x: 30.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["719D3769B0B135F0"]
+			id: "0148300EBA1D2E48"
+			tasks: [{
+				id: "6D760CC636C39513"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04AED5EA2C17C14E"]
+			id: "3663DF200306BA32"
+			optional: true
+			shape: "hexagon"
+			subtitle: "Enrich all possible options"
+			tasks: [
+				{
+					id: "288D03550707B2C3"
+					item: "mekanism:enriched_redstone"
+					type: "item"
+				}
+				{
+					id: "16680C9287412E08"
+					item: "mekanism:enriched_carbon"
+					type: "item"
+				}
+				{
+					id: "59739CCB3E994D0D"
+					item: "mekanism:enriched_diamond"
+					type: "item"
+				}
+				{
+					id: "2DFD73C275994959"
+					item: "mekanism:enriched_refined_obsidian"
+					type: "item"
+				}
+				{
+					id: "2225A80C5B70606D"
+					item: "mekanism:enriched_gold"
+					type: "item"
+				}
+				{
+					id: "29367FCD6415C105"
+					item: "mekanism:enriched_tin"
+					type: "item"
+				}
+			]
+			title: "Enrichment"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66BB9B5FA159925B"]
+			id: "76970321379A5F9E"
+			tasks: [
+				{
+					id: "413279FB2AD1C4AF"
+					item: "mekanism:elite_universal_cable"
+					type: "item"
+				}
+				{
+					id: "4004AB7FE28D96EB"
+					item: "mekanism:elite_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "39B4518F3ABA8DE4"
+					item: "mekanism:elite_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "552976888105D8BE"
+					item: "mekanism:elite_logistical_transporter"
+					type: "item"
+				}
+			]
+			title: "&bElite Connectivity"
+			x: 28.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66BB9B5FA159925B"]
+			id: "5AB079B46D79DA8D"
+			tasks: [
+				{
+					id: "28D1D682AB9C8E96"
+					item: "mekanism:elite_bin"
+					type: "item"
+				}
+				{
+					id: "446BED840054192E"
+					item: "mekanism:elite_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "21D274842670802E"
+					item: "mekanism:elite_chemical_tank"
+					type: "item"
+				}
+			]
+			title: "&bElite Storage"
+			x: 31.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66BB9B5FA159925B"]
+			id: "77C69E383B0D2E27"
+			tasks: [{
+				id: "6F3499B2C771E833"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DC41C49DDF706A8"]
+			id: "260D4D294D5A23E4"
+			tasks: [{
+				id: "3B7A57D187A2C5CB"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["540DF41DBD5ECE3D"]
+			id: "56DD05F3F8013B25"
+			tasks: [{
+				id: "3F60D31E5B30BDB2"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["719D3769B0B135F0"]
+			id: "61C1E6950B0D27D4"
+			tasks: [{
+				id: "7027846153EB93E2"
+				item: "mekanism:free_runners"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66BB9B5FA159925B"]
+			id: "29E089E2AC5A7493"
+			tasks: [{
+				id: "1C3F78F70DEBD311"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66BB9B5FA159925B"]
+			id: "0BB42E87E0CA2D32"
+			subtitle: "Construct your first Fission reactor"
+			tasks: [
+				{
+					count: 30L
+					id: "32CDAC9A05D88557"
+					item: { Count: 30, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "73DF3668C7C57BA2"
+					item: { Count: 4, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "158DDAD3CBC19345"
+					item: { Count: 8, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3B971F78A873D02D"
+					item: { Count: 2, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "0FD914679676B915"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			title: "Weak Nuclear Force"
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BB42E87E0CA2D32"]
+			id: "52C76DE1C907C303"
+			tasks: [
+				{
+					count: 69L
+					id: "7890FA1082CA7AD4"
+					item: { Count: 69, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0561D171FC2F59DF"
+					item: { Count: 8, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "17944C0745F7FABD"
+					item: { Count: 22, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "432AD8A92F03251F"
+					item: { Count: 21, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "72879630035579F4"
+					item: { Count: 8, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7C0C076480EDB419"
+					item: { Count: 2, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "69D9D48BD7A55F65"
+					item: { Count: 4, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "08485E6116505971"
+					item: { Count: 2, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					id: "797A10C9DCC67E4F"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					id: "447622834D7250CA"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+			]
+			title: "Industrual Turbine"
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52C76DE1C907C303"]
+			id: "759626F80B03C040"
+			tasks: [
+				{
+					count: 24L
+					id: "55133D555964F75E"
+					item: { Count: 24, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "51ABDC168DCAE367"
+					item: { Count: 2, id: "mekanism:induction_port" }
+					type: "item"
+				}
+				{
+					id: "1290CB5B35FA3863"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "225C52FAFFEA17AE"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "315B613395D82BDA"
+					item: { Count: 8, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+			]
+			title: "Basic Inductor"
+			x: 34.0d
+			y: 0.0d
+		}
 	]
 	title: "Mekanism"
 }
