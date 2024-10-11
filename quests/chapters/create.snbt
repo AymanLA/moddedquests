@@ -1,0 +1,586 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "6DA3C39A4417F765"
+	icon: "create:cogwheel"
+	id: "36658022DEF208AC"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B2A36EAA1E90F9F"]
+			description: ["These Quests have the goal of guiding you along the basic upgrade tree for Create without holding your hand too much or limiting what you think is possible using Create. The main theme of this tech mod is to make contraptions the way that you want to make contraptions. If you have played Create before you may notice these quests are missing a lot of the add-ons. This is on purpose, to show there is a lot more to discover about create after you complete these quests!"]
+			icon: "create:cogwheel"
+			id: "0412B29347546F4C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "66E5463D5B519D7A"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0412B29347546F4C"]
+			id: "6165265BB2C7E4C6"
+			shape: "diamond"
+			tasks: [{
+				count: 32L
+				id: "0C7FEDE9DBF2437E"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Giving you the shaft"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6165265BB2C7E4C6"]
+			id: "1C4F76DAB4A69059"
+			tasks: [{
+				id: "3EB0B338868A02D9"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6165265BB2C7E4C6"]
+			id: "339897A440EBAF97"
+			subtitle: "The easiest energy generation method"
+			tasks: [{
+				id: "7A3F4AE158D2FE96"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["339897A440EBAF97"]
+			id: "616F12A88129028E"
+			tasks: [{
+				id: "36E5E26BF5FA338A"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6165265BB2C7E4C6"]
+			id: "16C587409D6DCAE3"
+			subtitle: "Another way to get some energy"
+			tasks: [
+				{
+					id: "2306CE293D69F9F4"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "183CE8567EABA83D"
+					item: { Count: 8, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			title: "Windmills"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C4F76DAB4A69059"]
+			id: "1295D1FAA0720681"
+			tasks: [{
+				id: "6984778A2C2420EA"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C4F76DAB4A69059"]
+			id: "2F6B2975E6A31653"
+			tasks: [{
+				id: "4DDB15CF9685D5A5"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1295D1FAA0720681"
+				"2F6B2975E6A31653"
+			]
+			id: "273E8BC7A70A39BD"
+			shape: "diamond"
+			tasks: [{
+				id: "7CA095FC0888A583"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["273E8BC7A70A39BD"]
+			id: "5D1E2BF6C42D73F0"
+			tasks: [{
+				id: "722215A3BEE03C1D"
+				item: "createutilities:lshaped_gearbox"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["273E8BC7A70A39BD"]
+			id: "251D9F1341823837"
+			tasks: [{
+				id: "22C24A3DD935E940"
+				item: "createutilities:gearcube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["273E8BC7A70A39BD"]
+			id: "0CC83BA2791036EB"
+			tasks: [{
+				id: "7AE14DA43EEF77A5"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F6B2975E6A31653"]
+			id: "6C7B15461B486D3C"
+			tasks: [{
+				id: "03F4D885C1816677"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C7B15461B486D3C"]
+			id: "46BF5BEEB6732C96"
+			shape: "diamond"
+			tasks: [{
+				count: 16L
+				id: "477AC40A4E42493A"
+				item: { Count: 16, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46BF5BEEB6732C96"]
+			id: "1C56FAE5A2005E3B"
+			rewards: [{
+				id: "61039F1AD047A8C5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 16L
+				id: "45A3DA5C094F3DF7"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:plates)"
+					}
+				}
+				title: "Any #forge:plates"
+				type: "item"
+			}]
+			title: "Collect 16 of any kind of sheet"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46BF5BEEB6732C96"]
+			id: "5252026269DED40C"
+			shape: "diamond"
+			tasks: [{
+				id: "3C992FCF711A5A5B"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6C7B15461B486D3C"
+				"5252026269DED40C"
+				"298361842DC225DC"
+				"1877149CAFEB417D"
+			]
+			id: "12360AE901CAB24A"
+			tasks: [{
+				id: "6CA2C3D9BA2925AD"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5252026269DED40C"]
+			id: "298361842DC225DC"
+			tasks: [{
+				id: "1321A85C6B939141"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46BF5BEEB6732C96"]
+			id: "1877149CAFEB417D"
+			tasks: [{
+				id: "2A130214819D032A"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F6B2975E6A31653"]
+			id: "798D20B942AFDB70"
+			tasks: [{
+				id: "58ED64F6F399D0F2"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0CC83BA2791036EB"]
+			id: "319932008378094D"
+			tasks: [{
+				id: "5AA5F3D230D642C9"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["319932008378094D"]
+			id: "067AE1FA4E650B73"
+			tasks: [{
+				id: "26314714923F3ED1"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6165265BB2C7E4C6"]
+			id: "7CF0A99C98A4E2C2"
+			tasks: [{
+				id: "4FA9D993AACC52BF"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46BF5BEEB6732C96"]
+			id: "4E6CE0796256067A"
+			tasks: [{
+				id: "0EA7B85C655D3C55"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6165265BB2C7E4C6"]
+			id: "04264D77675D614B"
+			tasks: [{
+				id: "73D160736D660CA1"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46BF5BEEB6732C96"]
+			id: "2AD8706401E740BE"
+			tasks: [{
+				id: "2729AC3FC7C32753"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:sandpaper)"
+					}
+				}
+				title: "Any #create:sandpaper"
+				type: "item"
+			}]
+			title: "Sandpaper"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AD8706401E740BE"]
+			id: "463E6729AC1461B6"
+			tasks: [{
+				id: "264B95FC8642757A"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["463E6729AC1461B6"]
+			id: "7D41232954BA31DC"
+			tasks: [{
+				id: "2CBBA1536767F890"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D41232954BA31DC"]
+			id: "467731E032F6AD8C"
+			tasks: [{
+				id: "6EA5CC04BC7BE5F8"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12360AE901CAB24A"]
+			id: "488742EBD7E3AB33"
+			subtitle: "Zinc and Copper in a mechanical mixer..."
+			tasks: [{
+				count: 16L
+				id: "6301A8AD4F7DF9C2"
+				item: { Count: 16, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			title: "Mixing Metal"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2F6B2975E6A31653"]
+			id: "46ADB200B94B1BDA"
+			tasks: [{
+				id: "78FFDFBBC6D9D3B4"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46ADB200B94B1BDA"]
+			id: "3DF2CAF0F7E7985C"
+			shape: "diamond"
+			tasks: [{
+				id: "720B9DFBA1D580A6"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DF2CAF0F7E7985C"]
+			id: "0272CE9D3A690D56"
+			tasks: [{
+				id: "08A0A66A408B5C91"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3DF2CAF0F7E7985C"]
+			id: "4D406BFA557D7785"
+			tasks: [{
+				id: "50B9E36F2C7C1E5E"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DF2CAF0F7E7985C"]
+			id: "6C1FDAE880338188"
+			tasks: [{
+				id: "1A836376FD03C71F"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DF2CAF0F7E7985C"]
+			id: "5AA6805E67058686"
+			tasks: [{
+				id: "77AF5E1573ED551A"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["488742EBD7E3AB33"]
+			id: "4B0E75E6AF9791FF"
+			tasks: [{
+				id: "470EED7C9512508F"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["46BF5BEEB6732C96"]
+			id: "414595C84EFF9655"
+			tasks: [{
+				id: "3C7EE9D6595886A1"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["488742EBD7E3AB33"]
+			id: "707BEDAF0EB44B98"
+			tasks: [{
+				id: "1C90A4FC85B9C74C"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["798D20B942AFDB70"]
+			id: "4C87B8197B7DF9CB"
+			tasks: [{
+				id: "5508E77705273F51"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["707BEDAF0EB44B98"]
+			id: "5CD48EEE78570658"
+			tasks: [{
+				id: "1C6BD34BC61CD2EC"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5CD48EEE78570658"]
+			id: "3E23477209CAD327"
+			optional: true
+			rewards: [{
+				id: "0AFA91E85C0E89AA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			subtitle: "Smallest self-sustaining steam engine"
+			tasks: [
+				{
+					count: 4L
+					id: "3F6F3F73F9F17D4A"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "02A11A275DC0C730"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "71128F8799BCB9A0"
+					item: { Count: 2, id: "create:large_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "4A42B095213A143F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "37B83758A9CC41F7"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "06C04C4BF5AF547E"
+					item: { Count: 4, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "3B449AB0FC9FEC0B"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "6A08A1D9D7965C7C"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "Steam Powered"
+			x: -1.5d
+			y: 12.5d
+		}
+	]
+	title: "Create"
+}
