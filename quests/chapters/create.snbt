@@ -726,6 +726,222 @@
 			x: 0.0d
 			y: 15.5d
 		}
+		{
+			dependencies: [
+				"328E87A8888B5EFF"
+				"6358A142EC7B36AE"
+			]
+			id: "7610B3857B777544"
+			tasks: [
+				{
+					id: "306A61B2D14F4169"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "3F827F60F7CA2940"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "451F1775023F56C0"
+					item: { Count: 4, id: "create:mechanical_saw" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7BDC4285A5BB8ADB"
+					item: { Count: 3, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "29985C95A281703A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:chests)"
+						}
+					}
+					title: "Any #forge:chests"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2AE27447FC40B0FE"
+					item: { Count: 9, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "45CF6BEA46E156DF"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:saplings)"
+						}
+					}
+					title: "Any #minecraft:saplings"
+					type: "item"
+				}
+			]
+			title: "tree farming"
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["707BEDAF0EB44B98"]
+			id: "6358A142EC7B36AE"
+			tasks: [{
+				id: "1F74E6DCE25F943F"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["49B7443FB85ADFF1"]
+			id: "5C7B61A8BDF92F85"
+			subtitle: "Apply some Sturdy sheets to some Brass Casing to enter the logistical age!"
+			tasks: [{
+				id: "6FBF07FC20AD7968"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5C7B61A8BDF92F85"]
+			id: "718883C4D0EA5D3D"
+			tasks: [{
+				id: "7E8EF1EA6CD96FE4"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["718883C4D0EA5D3D"]
+			id: "16A543C92994F1D6"
+			tasks: [{
+				id: "38ADDDA587BB11DF"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["16A543C92994F1D6"]
+			id: "72A40314DCD93F80"
+			tasks: [{
+				id: "020EAB2F449A0298"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"72A40314DCD93F80"
+				"67733E8D1518D6B7"
+			]
+			icon: "create:black_seat"
+			id: "13228B5EEBE91D2B"
+			tasks: [
+				{
+					id: "7A8D0D7799296380"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "5B88800CD9889578"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "19A9ADFCD3CB0783"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:seats)"
+						}
+					}
+					title: "Any #create:seats"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "691FC371184F30DD"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)"
+						}
+					}
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "67BE6A3A8B28C7CA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:tracks)"
+						}
+					}
+					title: "Any #create:tracks"
+					type: "item"
+				}
+			]
+			title: "Smallest Train"
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["49B7443FB85ADFF1"]
+			id: "67733E8D1518D6B7"
+			tasks: [{
+				id: "1BE7AA91FEAB16B2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:tracks)"
+					}
+				}
+				title: "Any #create:tracks"
+				type: "item"
+			}]
+			title: "Train Tracks"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["67733E8D1518D6B7"]
+			id: "3B6D7C47032BFEBD"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Thank you for playing these quests! There's so much more to explore in create and now you have all the tools to do practically anything!"
+			tasks: [{
+				id: "4E17EED1374659BC"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.0d
+		}
 	]
 	title: "Create"
 }
