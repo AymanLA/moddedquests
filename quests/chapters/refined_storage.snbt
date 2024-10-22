@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "6DA3C39A4417F765"
+	id: "67F5A58731553D96"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "refinedstorage:creative_controller"
+			id: "138BF39A5B492713"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "76B8D8824C9F2A96"
+				title: "The most \"original\" tech mod"
+				type: "checkmark"
+			}]
+			title: "Refined Storage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["138BF39A5B492713"]
+			id: "70A74D8E57F5E4D0"
+			tasks: [{
+				count: 16L
+				id: "793DCCCC34A9F98A"
+				item: { Count: 16, id: "refinedstorage:silicon" }
+				type: "item"
+			}]
+			title: "Another way of making Silicon"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70A74D8E57F5E4D0"]
+			id: "542D3CD89C7A67CC"
+			tasks: [{
+				id: "1004F681E419105D"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["542D3CD89C7A67CC"]
+			id: "2EFF47B61C388130"
+			tasks: [{
+				id: "4BCA6184DE08A845"
+				item: "refinedstorage:raw_advanced_processor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EFF47B61C388130"]
+			id: "6BFE812E17A67FFC"
+			tasks: [{
+				id: "55DA4CBCCDD84F8B"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BFE812E17A67FFC"]
+			id: "26BC2CACC8BE4965"
+			tasks: [{
+				id: "0418BD14FE44A636"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:controller)"
+					}
+				}
+				title: "Any #refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Controller"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26BC2CACC8BE4965"]
+			id: "098B1A0A26CB6493"
+			tasks: [{
+				id: "18D82A9985F87107"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["098B1A0A26CB6493"]
+			id: "2293FFF105F213E9"
+			tasks: [{
+				id: "5120090528EF8BBC"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2293FFF105F213E9"]
+			id: "6FFF789EB4E16332"
+			tasks: [{
+				id: "32DDB0405BE150BB"
+				item: "refinedstorage:1k_storage_disk"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26BC2CACC8BE4965"]
+			id: "0EF1D948166E9CB6"
+			tasks: [{
+				id: "7B147849988A44BB"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+	]
+	title: "Refined Storage"
+}
